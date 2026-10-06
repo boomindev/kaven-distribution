@@ -1,0 +1,318 @@
+{
+  "props": {
+    "pageProps": {
+      "state": {
+        "data": {
+          "entity": {
+            "type": "artist",
+            "name": "Ambik",
+            "uri": "spotify:artist:4QIM495B5wWD9B24Fsi4aR",
+            "id": "4QIM495B5wWD9B24Fsi4aR",
+            "title": "Ambik",
+            "subtitle": "Top tracks",
+            "releaseDate": null,
+            "duration": 0,
+            "isPlayable": true,
+            "playabilityReason": "PLAYABLE",
+            "isExplicit": false,
+            "hasVideo": false,
+            "relatedEntityUri": "spotify:artist:4QIM495B5wWD9B24Fsi4aR",
+            "trackList": [
+              {
+                "uri": "spotify:track:15YoTBWq0M6nMRuzM9kRNM",
+                "uid": "99dead45a0aeab023a60",
+                "title": "Sha la la",
+                "subtitle": "LUANA,\u00a0Ambik,\u00a0Yarge",
+                "isExplicit": false,
+                "isNineteenPlus": false,
+                "contentRatings": {
+                  "labels": []
+                },
+                "duration": 232000,
+                "isPlayable": true,
+                "playabilityReason": "PLAYABLE",
+                "audioPreview": {
+                  "format": "MP3_96",
+                  "url": "https://p.scdn.co/mp3-preview/07f8c7c21336746f39f69604bbb7175ba9de2abd"
+                },
+                "entityType": "track"
+              },
+              {
+                "uri": "spotify:track:5arlUnESk69UOTh80g3rMZ",
+                "uid": "dd02c3d65d0ad0c04f65",
+                "title": "Estrella",
+                "subtitle": "Ambik",
+                "isExplicit": false,
+                "isNineteenPlus": false,
+                "contentRatings": {
+                  "labels": []
+                },
+                "duration": 147500,
+                "isPlayable": true,
+                "playabilityReason": "PLAYABLE",
+                "audioPreview": {
+                  "format": "MP3_96",
+                  "url": "https://p.scdn.co/mp3-preview/62c0f8acefaef7a583d93343279dc1be0802d162"
+                },
+                "entityType": "track"
+              },
+              {
+                "uri": "spotify:track:4AqRuoZOQciqtVsE2EjsKB",
+                "uid": "e59d8f0c9f5333d61c3a",
+                "title": "Vuela X M\u00ed",
+                "subtitle": "Rojuu,\u00a0Ambik",
+                "isExplicit": false,
+                "isNineteenPlus": false,
+                "contentRatings": {
+                  "labels": []
+                },
+                "duration": 178341,
+                "isPlayable": true,
+                "playabilityReason": "PLAYABLE",
+                "audioPreview": {
+                  "format": "MP3_96",
+                  "url": "https://p.scdn.co/mp3-preview/41f698a553dd9cb1d59261547c1cdda545e4dc30"
+                },
+                "entityType": "track"
+              },
+              {
+                "uri": "spotify:track:00MyY4Pnrmr57O4eD9IJDs",
+                "uid": "eb37e540912db9e45828",
+                "title": "NO SOY COMO ELLAS!",
+                "subtitle": "Ambik",
+                "isExplicit": false,
+                "isNineteenPlus": false,
+                "contentRatings": {
+                  "labels": []
+                },
+                "duration": 154238,
+                "isPlayable": true,
+                "playabilityReason": "PLAYABLE",
+                "audioPreview": {
+                  "format": "MP3_96",
+                  "url": "https://p.scdn.co/mp3-preview/a3991d0287873bdd89c7f71b33d1f399677bacdd"
+                },
+                "entityType": "track"
+              },
+              {
+                "uri": "spotify:track:2JiFSEUSqviuyKDhSLXxj7",
+                "uid": "c804bd1c109c84a525bb",
+                "title": "Crucigrama",
+                "subtitle": "Ambik",
+                "isExplicit": true,
+                "isNineteenPlus": false,
+                "contentRatings": {
+                  "labels": [
+                    "EXPLICIT"
+                  ]
+                },
+                "duration": 157750,
+                "isPlayable": true,
+                "playabilityReason": "PLAYABLE",
+                "audioPreview": {
+                  "format": "MP3_96",
+                  "url": "https://p.scdn.co/mp3-preview/9d2fc89ba667ac86d95d14942df4d34b299ff0ca"
+                },
+                "entityType": "track"
+              },
+              {
+                "uri": "spotify:track:51IP6lfvOy4ELWo0XV0mPH",
+                "uid": "17eeb589cb0c9547a359",
+                "title": "ROJO PASI\u00d3N",
+                "subtitle": "Ambik",
+                "isExplicit": false,
+                "isNineteenPlus": false,
+                "contentRatings": {
+                  "labels": []
+                },
+                "duration": 167542,
+                "isPlayable": true,
+                "playabilityReason": "PLAYABLE",
+                "audioPreview": {
+                  "format": "MP3_96",
+                  "url": "https://p.scdn.co/mp3-preview/189629a2be799795cc1ce580e4f8147edea0918d"
+                },
+                "entityType": "track"
+              },
+              {
+                "uri": "spotify:track:7LFFbMqQwU87wo0bseY1zd",
+                "uid": "016b5e6b4687930e73ed",
+                "title": "N\u00e1ufrago",
+                "subtitle": "Ambik",
+                "isExplicit": false,
+                "isNineteenPlus": false,
+                "contentRatings": {
+                  "labels": []
+                },
+                "duration": 170000,
+                "isPlayable": true,
+                "playabilityReason": "PLAYABLE",
+                "audioPreview": {
+                  "format": "MP3_96",
+                  "url": "https://p.scdn.co/mp3-preview/48e0f3035740d93fcc0f8fa5d1623886bc3f7796"
+                },
+                "entityType": "track"
+              },
+              {
+                "uri": "spotify:track:0E389m5ypkFOZY9epytTUC",
+                "uid": "33afe8d626530cfc6f34",
+                "title": "DEJATE QUERER",
+                "subtitle": "Ambik",
+                "isExplicit": false,
+                "isNineteenPlus": false,
+                "contentRatings": {
+                  "labels": []
+                },
+                "duration": 152344,
+                "isPlayable": true,
+                "playabilityReason": "PLAYABLE",
+                "audioPreview": {
+                  "format": "MP3_96",
+                  "url": "https://p.scdn.co/mp3-preview/c83311401a5b367e7d7332d87cd3d85cbaf374cd"
+                },
+                "entityType": "track"
+              },
+              {
+                "uri": "spotify:track:2qp42faU1rEKhsbTxn82aL",
+                "uid": "00785a5605a0c4b62b8b",
+                "title": "tenerte otra vez",
+                "subtitle": "Ambik",
+                "isExplicit": false,
+                "isNineteenPlus": false,
+                "contentRatings": {
+                  "labels": []
+                },
+                "duration": 174158,
+                "isPlayable": true,
+                "playabilityReason": "PLAYABLE",
+                "audioPreview": {
+                  "format": "MP3_96",
+                  "url": "https://p.scdn.co/mp3-preview/04498ab6dd3cfbc45cc24b6e1f4fec8c21b5e485"
+                },
+                "entityType": "track"
+              },
+              {
+                "uri": "spotify:track:1cK2dUXBWq4TlABJHhJQBW",
+                "uid": "ba23b8649d3f183329ad",
+                "title": "WOW GUCCI",
+                "subtitle": "Ambik",
+                "isExplicit": false,
+                "isNineteenPlus": false,
+                "contentRatings": {
+                  "labels": []
+                },
+                "duration": 178539,
+                "isPlayable": true,
+                "playabilityReason": "PLAYABLE",
+                "audioPreview": {
+                  "format": "MP3_96",
+                  "url": "https://p.scdn.co/mp3-preview/e1872b0914225ecbc567e402c2ca42f49bd3098a"
+                },
+                "entityType": "track"
+              }
+            ],
+            "visualIdentity": {
+              "backgroundBase": {
+                "alpha": 255,
+                "blue": 64,
+                "green": 54,
+                "red": 137
+              },
+              "backgroundTintedBase": {
+                "alpha": 255,
+                "blue": 31,
+                "green": 13,
+                "red": 95
+              },
+              "textBase": {
+                "alpha": 255,
+                "blue": 255,
+                "green": 255,
+                "red": 255
+              },
+              "textBrightAccent": {
+                "alpha": 255,
+                "blue": 255,
+                "green": 255,
+                "red": 255
+              },
+              "textSubdued": {
+                "alpha": 255,
+                "blue": 193,
+                "green": 188,
+                "red": 255
+              },
+              "image": [
+                {
+                  "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616100005174086c926c7b5a9ff6c9482422",
+                  "maxHeight": 320,
+                  "maxWidth": 320
+                },
+                {
+                  "url": "https://image-cdn-ak.spotifycdn.com/image/ab6761610000e5eb086c926c7b5a9ff6c9482422",
+                  "maxHeight": 640,
+                  "maxWidth": 640
+                },
+                {
+                  "url": "https://image-cdn-ak.spotifycdn.com/image/ab6761610000f178086c926c7b5a9ff6c9482422",
+                  "maxHeight": 160,
+                  "maxWidth": 160
+                }
+              ]
+            }
+          },
+          "embeded_entity_uri": "spotify:artist:4QIM495B5wWD9B24Fsi4aR",
+          "defaultAudioFileObject": {
+            "passthrough": "NONE"
+          }
+        },
+        "settings": {
+          "rtl": false,
+          "session": {
+            "accessToken": "BQCDHPD8OgrGDFi9wMH723oNCTWvP4yturAFlHS5s0DFlpjFVyvy0p5AgV7cbcVAw6lWvZA4nMIhdg9HXwJjS6FqngYhjDA1ajrXoY83-N-VYtv212JliAq6bRe3pgf4PB7rCAygiyDU",
+            "accessTokenExpirationTimestampMs": 1791322258789,
+            "isAnonymous": true
+          },
+          "clientId": "ab9ad0d96a624805a7d51e8868df1f97",
+          "entityContext": "artist",
+          "isMobile": false,
+          "isSafari": true,
+          "isIOS": false,
+          "isTablet": false,
+          "isDarkMode": false
+        },
+        "machineState": {
+          "initialized": false,
+          "showOverflowMenu": false,
+          "playbackMode": "unknown",
+          "currentPreviewTrackIndex": 0,
+          "platformSupportsEncryptedContent": false
+        }
+      },
+      "config": {
+        "correlationId": "171534bac36f020d46d814f6a6d22c95",
+        "strings": {
+          "en": {
+            "translation": {}
+          }
+        },
+        "locale": "en",
+        "clientId": "ab9ad0d96a624805a7d51e8868df1f97",
+        "restrictionId": ""
+      },
+      "_sentryTraceData": "851e874e2807807cc1660ed82bdd4785-f8a1de92b720f071-0",
+      "_sentryBaggage": "sentry-environment=production,sentry-release=adcf0b462b160cb69b69e233dac74be93f794433,sentry-public_key=4cc707ab12ea4779b417479c0550a5cb,sentry-trace_id=851e874e2807807cc1660ed82bdd4785,sentry-org_id=22381,sentry-sampled=false,sentry-sample_rand=0.6741707651768288,sentry-sample_rate=0"
+    },
+    "__N_SSP": true
+  },
+  "page": "/artist/[id]",
+  "query": {
+    "id": "4QIM495B5wWD9B24Fsi4aR"
+  },
+  "buildId": "74b3c9b0-e6d2-4d74-a314-e6b30b1fd2ed",
+  "assetPrefix": "https://embed-cdn.spotifycdn.com",
+  "isFallback": false,
+  "isExperimentalCompile": false,
+  "gssp": true,
+  "scriptLoader": []
+}

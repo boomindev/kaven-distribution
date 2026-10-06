@@ -1,0 +1,47 @@
+[
+  {
+    "id": "artist-1",
+    "slug": "unknown",
+    "name": "Unknown",
+    "spotifyUrl": "https://open.spotify.com/intl-es/artist/3OHwlQfXYEFe5ynRosykmE",
+    "imageUrl": "/artists/unknown.jpg",
+    "remoteImageUrl": "",
+    "description": ""
+  },
+  {
+    "id": "artist-2",
+    "slug": "unknown",
+    "name": "Unknown",
+    "spotifyUrl": "https://open.spotify.com/intl-es/artist/4QIM495B5wWD9B24Fsi4aR",
+    "imageUrl": "/artists/unknown.jpg",
+    "remoteImageUrl": "",
+    "description": ""
+  },
+  {
+    "id": "artist-3",
+    "slug": "unknown",
+    "name": "Unknown",
+    "spotifyUrl": "https://open.spotify.com/intl-es/artist/4VEnO9rQaCXMwE5yezIrGS",
+    "imageUrl": "/artists/unknown.jpg",
+    "remoteImageUrl": "",
+    "description": ""
+  },
+  {
+    "id": "artist-4",
+    "slug": "unknown",
+    "name": "Unknown",
+    "spotifyUrl": "https://open.spotify.com/intl-es/artist/2BqyeAgtwMSJy10mHIQuEO",
+    "imageUrl": "/artists/unknown.jpg",
+    "remoteImageUrl": "",
+    "description": ""
+  },
+  {
+    "id": "artist-5",
+    "slug": "unknown",
+    "name": "Unknown",
+    "spotifyUrl": "https://open.spotify.com/intl-es/artist/5wkxQh0fD5bsqxKm6Ajv7o",
+    "imageUrl": "/artists/unknown.jpg",
+    "remoteImageUrl": "",
+    "description": ""
+  }
+]

@@ -1,0 +1,322 @@
+{
+  "props": {
+    "pageProps": {
+      "state": {
+        "data": {
+          "entity": {
+            "type": "artist",
+            "name": "CHANCRA",
+            "uri": "spotify:artist:4VEnO9rQaCXMwE5yezIrGS",
+            "id": "4VEnO9rQaCXMwE5yezIrGS",
+            "title": "CHANCRA",
+            "subtitle": "Top tracks",
+            "releaseDate": null,
+            "duration": 0,
+            "isPlayable": true,
+            "playabilityReason": "PLAYABLE",
+            "isExplicit": false,
+            "hasVideo": false,
+            "relatedEntityUri": "spotify:artist:4VEnO9rQaCXMwE5yezIrGS",
+            "trackList": [
+              {
+                "uri": "spotify:track:4CG40Eh5IoJP5jj04KFH5A",
+                "uid": "51c99d945dad130d116a",
+                "title": "Prohibido",
+                "subtitle": "CHANCRA",
+                "isExplicit": false,
+                "isNineteenPlus": false,
+                "contentRatings": {
+                  "labels": []
+                },
+                "duration": 154331,
+                "isPlayable": true,
+                "playabilityReason": "PLAYABLE",
+                "audioPreview": {
+                  "format": "MP3_96",
+                  "url": "https://p.scdn.co/mp3-preview/208bbcbc86cd4211a11acdd6073f99a35a7b48a9"
+                },
+                "entityType": "track"
+              },
+              {
+                "uri": "spotify:track:5W3Ipfry7LkiTgfn1cq55V",
+                "uid": "88c3489d44f5e62e6660",
+                "title": "Bardo",
+                "subtitle": "CHANCRA",
+                "isExplicit": false,
+                "isNineteenPlus": false,
+                "contentRatings": {
+                  "labels": []
+                },
+                "duration": 142798,
+                "isPlayable": true,
+                "playabilityReason": "PLAYABLE",
+                "audioPreview": {
+                  "format": "MP3_96",
+                  "url": "https://p.scdn.co/mp3-preview/2b814f0113a0097389f748fd6e5934109eabbc73"
+                },
+                "entityType": "track"
+              },
+              {
+                "uri": "spotify:track:3PCC87mZ5ec6UCzJHXc5qm",
+                "uid": "f48ee557fa379ec3637f",
+                "title": "Tini",
+                "subtitle": "CHANCRA",
+                "isExplicit": true,
+                "isNineteenPlus": false,
+                "contentRatings": {
+                  "labels": [
+                    "EXPLICIT"
+                  ]
+                },
+                "duration": 132843,
+                "isPlayable": true,
+                "playabilityReason": "PLAYABLE",
+                "audioPreview": {
+                  "format": "MP3_96",
+                  "url": "https://p.scdn.co/mp3-preview/407a638636b642c3d3da0c17b7c03f0bbad10c0f"
+                },
+                "entityType": "track"
+              },
+              {
+                "uri": "spotify:track:4gm1qlO1eMBVkTssM1u79v",
+                "uid": "295c92acda319eafd053",
+                "title": "Moncler",
+                "subtitle": "CHANCRA",
+                "isExplicit": false,
+                "isNineteenPlus": false,
+                "contentRatings": {
+                  "labels": []
+                },
+                "duration": 154572,
+                "isPlayable": true,
+                "playabilityReason": "PLAYABLE",
+                "audioPreview": {
+                  "format": "MP3_96",
+                  "url": "https://p.scdn.co/mp3-preview/59ce75fe45bfc81bd64db6b7e8ac44a35da28324"
+                },
+                "entityType": "track"
+              },
+              {
+                "uri": "spotify:track:2rflUMhXZFl4Ea1wft6vdD",
+                "uid": "9f4c4e2a077692d9fb87",
+                "title": "No Me Achico",
+                "subtitle": "chakra\u00a1,\u00a0CHANCRA",
+                "isExplicit": false,
+                "isNineteenPlus": false,
+                "contentRatings": {
+                  "labels": []
+                },
+                "duration": 115200,
+                "isPlayable": true,
+                "playabilityReason": "PLAYABLE",
+                "audioPreview": {
+                  "format": "MP3_96",
+                  "url": "https://p.scdn.co/mp3-preview/782d965fa368f9f3928377dd3797918387a61ebf"
+                },
+                "entityType": "track"
+              },
+              {
+                "uri": "spotify:track:4tzGAHDiIgBhGpS5zX8YTL",
+                "uid": "591e91ad387aa8b9a3e4",
+                "title": "precio",
+                "subtitle": "CHANCRA",
+                "isExplicit": true,
+                "isNineteenPlus": false,
+                "contentRatings": {
+                  "labels": [
+                    "EXPLICIT"
+                  ]
+                },
+                "duration": 135826,
+                "isPlayable": true,
+                "playabilityReason": "PLAYABLE",
+                "audioPreview": {
+                  "format": "MP3_96",
+                  "url": "https://p.scdn.co/mp3-preview/2e4a4a0e3df618ffd993f55f731a5754d8f0bcf9"
+                },
+                "entityType": "track"
+              },
+              {
+                "uri": "spotify:track:1OCZQ6yLg9LJF3FmNf8cjR",
+                "uid": "2e574cb3db68c8412dca",
+                "title": "Por las Moscas Troto",
+                "subtitle": "CHANCRA",
+                "isExplicit": true,
+                "isNineteenPlus": false,
+                "contentRatings": {
+                  "labels": [
+                    "EXPLICIT"
+                  ]
+                },
+                "duration": 152298,
+                "isPlayable": true,
+                "playabilityReason": "PLAYABLE",
+                "audioPreview": {
+                  "format": "MP3_96",
+                  "url": "https://p.scdn.co/mp3-preview/432b68f1509ad88916517344caed5e7ff481fc7e"
+                },
+                "entityType": "track"
+              },
+              {
+                "uri": "spotify:track:5uZQPnyVPBWLdYWaCpbHzj",
+                "uid": "fd7e83162a9b5127cce1",
+                "title": "Puesto Pa\u2019l Game",
+                "subtitle": "CHANCRA",
+                "isExplicit": false,
+                "isNineteenPlus": false,
+                "contentRatings": {
+                  "labels": []
+                },
+                "duration": 145779,
+                "isPlayable": true,
+                "playabilityReason": "PLAYABLE",
+                "audioPreview": {
+                  "format": "MP3_96",
+                  "url": "https://p.scdn.co/mp3-preview/2cb5e8a5b97f2bee0d26ace587aa5d7f952b2122"
+                },
+                "entityType": "track"
+              },
+              {
+                "uri": "spotify:track:3rW0jat9yqBcP8K7cQcPiE",
+                "uid": "44907928f533be50d29e",
+                "title": "Duele Amar",
+                "subtitle": "CHANCRA",
+                "isExplicit": false,
+                "isNineteenPlus": false,
+                "contentRatings": {
+                  "labels": []
+                },
+                "duration": 160324,
+                "isPlayable": true,
+                "playabilityReason": "PLAYABLE",
+                "audioPreview": {
+                  "format": "MP3_96",
+                  "url": "https://p.scdn.co/mp3-preview/0bc3240c634f6a901a707d6e8bae196ade611d3e"
+                },
+                "entityType": "track"
+              },
+              {
+                "uri": "spotify:track:3JBw747Sv3u96lVanMsTXl",
+                "uid": "400b35951187fb033e2f",
+                "title": "No Me Idealices",
+                "subtitle": "CHANCRA,\u00a0Farruxx",
+                "isExplicit": false,
+                "isNineteenPlus": false,
+                "contentRatings": {
+                  "labels": []
+                },
+                "duration": 181052,
+                "isPlayable": true,
+                "playabilityReason": "PLAYABLE",
+                "audioPreview": {
+                  "format": "MP3_96",
+                  "url": "https://p.scdn.co/mp3-preview/2e3e60dccd9de8cf5ecae165580f5832bd56eb42"
+                },
+                "entityType": "track"
+              }
+            ],
+            "visualIdentity": {
+              "backgroundBase": {
+                "alpha": 255,
+                "blue": 128,
+                "green": 82,
+                "red": 60
+              },
+              "backgroundTintedBase": {
+                "alpha": 255,
+                "blue": 92,
+                "green": 49,
+                "red": 29
+              },
+              "textBase": {
+                "alpha": 255,
+                "blue": 255,
+                "green": 255,
+                "red": 255
+              },
+              "textBrightAccent": {
+                "alpha": 255,
+                "blue": 255,
+                "green": 255,
+                "red": 255
+              },
+              "textSubdued": {
+                "alpha": 255,
+                "blue": 255,
+                "green": 207,
+                "red": 179
+              },
+              "image": [
+                {
+                  "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616100005174713d70d4beaa212efe237bd7",
+                  "maxHeight": 320,
+                  "maxWidth": 320
+                },
+                {
+                  "url": "https://image-cdn-ak.spotifycdn.com/image/ab6761610000e5eb713d70d4beaa212efe237bd7",
+                  "maxHeight": 640,
+                  "maxWidth": 640
+                },
+                {
+                  "url": "https://image-cdn-ak.spotifycdn.com/image/ab6761610000f178713d70d4beaa212efe237bd7",
+                  "maxHeight": 160,
+                  "maxWidth": 160
+                }
+              ]
+            }
+          },
+          "embeded_entity_uri": "spotify:artist:4VEnO9rQaCXMwE5yezIrGS",
+          "defaultAudioFileObject": {
+            "passthrough": "NONE"
+          }
+        },
+        "settings": {
+          "rtl": false,
+          "session": {
+            "accessToken": "BQAU_mYkIHpKCZWMRc-4_kJtCbXxYpXd6k_6yeZHXr0XEYR9qw8OASFTJ1zUdS4PVcUBGgMD-SKiYgy3r2LK2UpGdpp8e7EU28HBRa3lnMffDrDZyFOMV5OzZgjTZrxxyZyFMOQec1_y",
+            "accessTokenExpirationTimestampMs": 1791322258365,
+            "isAnonymous": true
+          },
+          "clientId": "ab9ad0d96a624805a7d51e8868df1f97",
+          "entityContext": "artist",
+          "isMobile": false,
+          "isSafari": true,
+          "isIOS": false,
+          "isTablet": false,
+          "isDarkMode": false
+        },
+        "machineState": {
+          "initialized": false,
+          "showOverflowMenu": false,
+          "playbackMode": "unknown",
+          "currentPreviewTrackIndex": 0,
+          "platformSupportsEncryptedContent": false
+        }
+      },
+      "config": {
+        "correlationId": "1ba152f6169929c678717fbbe7ac5812",
+        "strings": {
+          "en": {
+            "translation": {}
+          }
+        },
+        "locale": "en",
+        "clientId": "ab9ad0d96a624805a7d51e8868df1f97",
+        "restrictionId": ""
+      },
+      "_sentryTraceData": "285ffa19830cb4613df2eb2d6bfcc3aa-39199c1154bc111d-0",
+      "_sentryBaggage": "sentry-environment=production,sentry-release=adcf0b462b160cb69b69e233dac74be93f794433,sentry-public_key=4cc707ab12ea4779b417479c0550a5cb,sentry-trace_id=285ffa19830cb4613df2eb2d6bfcc3aa,sentry-org_id=22381,sentry-sampled=false,sentry-sample_rand=0.3274925974411471,sentry-sample_rate=0"
+    },
+    "__N_SSP": true
+  },
+  "page": "/artist/[id]",
+  "query": {
+    "id": "4VEnO9rQaCXMwE5yezIrGS"
+  },
+  "buildId": "74b3c9b0-e6d2-4d74-a314-e6b30b1fd2ed",
+  "assetPrefix": "https://embed-cdn.spotifycdn.com",
+  "isFallback": false,
+  "isExperimentalCompile": false,
+  "gssp": true,
+  "scriptLoader": []
+}

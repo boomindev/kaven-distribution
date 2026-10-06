@@ -1,0 +1,316 @@
+{
+  "props": {
+    "pageProps": {
+      "state": {
+        "data": {
+          "entity": {
+            "type": "artist",
+            "name": "ENEZ 4R",
+            "uri": "spotify:artist:3OHwlQfXYEFe5ynRosykmE",
+            "id": "3OHwlQfXYEFe5ynRosykmE",
+            "title": "ENEZ 4R",
+            "subtitle": "Top tracks",
+            "releaseDate": null,
+            "duration": 0,
+            "isPlayable": true,
+            "playabilityReason": "PLAYABLE",
+            "isExplicit": false,
+            "hasVideo": false,
+            "relatedEntityUri": "spotify:artist:3OHwlQfXYEFe5ynRosykmE",
+            "trackList": [
+              {
+                "uri": "spotify:track:031uMsGKA6CFboZDCX3xSu",
+                "uid": "c4113b22467df57a0e2c",
+                "title": "Factos",
+                "subtitle": "Nissa,\u00a0ENEZ 4R",
+                "isExplicit": false,
+                "isNineteenPlus": false,
+                "contentRatings": {
+                  "labels": []
+                },
+                "duration": 122040,
+                "isPlayable": true,
+                "playabilityReason": "PLAYABLE",
+                "audioPreview": {
+                  "format": "MP3_96",
+                  "url": "https://p.scdn.co/mp3-preview/f47334c7f9853011a77d79aeab56467df73955e7"
+                },
+                "entityType": "track"
+              },
+              {
+                "uri": "spotify:track:0ukmJ0awCSplbOgBp7qSWr",
+                "uid": "54e98e49fa9caa1207d6",
+                "title": "De Manual",
+                "subtitle": "Yami Safdie,\u00a0ENEZ 4R",
+                "isExplicit": false,
+                "isNineteenPlus": false,
+                "contentRatings": {
+                  "labels": []
+                },
+                "duration": 144811,
+                "isPlayable": true,
+                "playabilityReason": "PLAYABLE",
+                "audioPreview": {
+                  "format": "MP3_96",
+                  "url": "https://p.scdn.co/mp3-preview/c1206250408e16d75ef12427726c40143cd07364"
+                },
+                "entityType": "track"
+              },
+              {
+                "uri": "spotify:track:2CNfYe3Kzyw2IDGTIssbXb",
+                "uid": "5f911e54979ae3bbc657",
+                "title": "GITANA",
+                "subtitle": "ENEZ 4R,\u00a0Yami Safdie",
+                "isExplicit": false,
+                "isNineteenPlus": false,
+                "contentRatings": {
+                  "labels": []
+                },
+                "duration": 173456,
+                "isPlayable": true,
+                "playabilityReason": "PLAYABLE",
+                "audioPreview": {
+                  "format": "MP3_96",
+                  "url": "https://p.scdn.co/mp3-preview/093d8d116dc82db7b87d60a68824896c0c60ef20"
+                },
+                "entityType": "track"
+              },
+              {
+                "uri": "spotify:track:0lvpVWfiKFu8GApiyMqLtN",
+                "uid": "d48fc1dbd20371d82758",
+                "title": "Sin Miedo",
+                "subtitle": "Lei B,\u00a0ENEZ 4R",
+                "isExplicit": false,
+                "isNineteenPlus": false,
+                "contentRatings": {
+                  "labels": []
+                },
+                "duration": 134200,
+                "isPlayable": true,
+                "playabilityReason": "PLAYABLE",
+                "audioPreview": {
+                  "format": "MP3_96",
+                  "url": "https://p.scdn.co/mp3-preview/e75049d48cb06f21e8eee9a3e131d04f4223b101"
+                },
+                "entityType": "track"
+              },
+              {
+                "uri": "spotify:track:0oizEtR6dMkAgYr910XyjJ",
+                "uid": "add7a5b122480806d979",
+                "title": "Donde Nos Conocimos",
+                "subtitle": "ENEZ 4R,\u00a0LUANA",
+                "isExplicit": false,
+                "isNineteenPlus": false,
+                "contentRatings": {
+                  "labels": []
+                },
+                "duration": 165333,
+                "isPlayable": true,
+                "playabilityReason": "PLAYABLE",
+                "audioPreview": {
+                  "format": "MP3_96",
+                  "url": "https://p.scdn.co/mp3-preview/415361a7fc75b5a7d5c2790f5690aae9d2c617f7"
+                },
+                "entityType": "track"
+              },
+              {
+                "uri": "spotify:track:37tQqFDYGdEhDaTNLHWTkC",
+                "uid": "e590ca20944b6aca7e97",
+                "title": "Se que no es normal",
+                "subtitle": "ENEZ 4R,\u00a0Panther,\u00a0Neqer,\u00a0n.a.n.o",
+                "isExplicit": false,
+                "isNineteenPlus": false,
+                "contentRatings": {
+                  "labels": []
+                },
+                "duration": 229894,
+                "isPlayable": true,
+                "playabilityReason": "PLAYABLE",
+                "audioPreview": {
+                  "format": "MP3_96",
+                  "url": "https://p.scdn.co/mp3-preview/a02db32abec14fabc8f28ad353513267259d45d5"
+                },
+                "entityType": "track"
+              },
+              {
+                "uri": "spotify:track:1U3PeMjXfMoxtVWaqYXUWd",
+                "uid": "d4428604990b46151981",
+                "title": "Por Ti",
+                "subtitle": "ENEZ 4R",
+                "isExplicit": false,
+                "isNineteenPlus": false,
+                "contentRatings": {
+                  "labels": []
+                },
+                "duration": 172339,
+                "isPlayable": true,
+                "playabilityReason": "PLAYABLE",
+                "audioPreview": {
+                  "format": "MP3_96",
+                  "url": "https://p.scdn.co/mp3-preview/71787985e7eacf7b5cf89b797b7125b0db4bf3dd"
+                },
+                "entityType": "track"
+              },
+              {
+                "uri": "spotify:track:0L4vx0mCkLsgGUrmZmFhYX",
+                "uid": "bc763f53edba61f8a409",
+                "title": "Estr\u00e9s",
+                "subtitle": "ENEZ 4R",
+                "isExplicit": false,
+                "isNineteenPlus": false,
+                "contentRatings": {
+                  "labels": []
+                },
+                "duration": 176377,
+                "isPlayable": true,
+                "playabilityReason": "PLAYABLE",
+                "audioPreview": {
+                  "format": "MP3_96",
+                  "url": "https://p.scdn.co/mp3-preview/ca2caae179f0d1becfd85f438ae17f302053ad33"
+                },
+                "entityType": "track"
+              },
+              {
+                "uri": "spotify:track:58SaX00BJDbD4oxtV4xNRj",
+                "uid": "e574319c09b0a7ce2d4c",
+                "title": "Kiki",
+                "subtitle": "TRUNSER,\u00a0ENEZ 4R,\u00a0Beau the kid,\u00a0almeja",
+                "isExplicit": false,
+                "isNineteenPlus": false,
+                "contentRatings": {
+                  "labels": []
+                },
+                "duration": 180000,
+                "isPlayable": true,
+                "playabilityReason": "PLAYABLE",
+                "audioPreview": {
+                  "format": "MP3_96",
+                  "url": "https://p.scdn.co/mp3-preview/28a7a1d537e9dc7122df4950021f89188f8a64b8"
+                },
+                "entityType": "track"
+              },
+              {
+                "uri": "spotify:track:2nE9JY2dPH0J6340DEXtPR",
+                "uid": "020c4eedd232870828ec",
+                "title": "FRENETIK",
+                "subtitle": "ENEZ 4R",
+                "isExplicit": false,
+                "isNineteenPlus": false,
+                "contentRatings": {
+                  "labels": []
+                },
+                "duration": 182971,
+                "isPlayable": true,
+                "playabilityReason": "PLAYABLE",
+                "audioPreview": {
+                  "format": "MP3_96",
+                  "url": "https://p.scdn.co/mp3-preview/5f0fa1745ca8eedd75ad8dd36f672bbfcccdd84b"
+                },
+                "entityType": "track"
+              }
+            ],
+            "visualIdentity": {
+              "backgroundBase": {
+                "alpha": 255,
+                "blue": 96,
+                "green": 88,
+                "red": 56
+              },
+              "backgroundTintedBase": {
+                "alpha": 255,
+                "blue": 62,
+                "green": 55,
+                "red": 23
+              },
+              "textBase": {
+                "alpha": 255,
+                "blue": 255,
+                "green": 255,
+                "red": 255
+              },
+              "textBrightAccent": {
+                "alpha": 255,
+                "blue": 255,
+                "green": 255,
+                "red": 255
+              },
+              "textSubdued": {
+                "alpha": 255,
+                "blue": 221,
+                "green": 211,
+                "red": 176
+              },
+              "image": [
+                {
+                  "url": "https://image-cdn-ak.spotifycdn.com/image/ab67616100005174ad399b01a59a6935ca5954d3",
+                  "maxHeight": 320,
+                  "maxWidth": 320
+                },
+                {
+                  "url": "https://image-cdn-ak.spotifycdn.com/image/ab6761610000e5ebad399b01a59a6935ca5954d3",
+                  "maxHeight": 640,
+                  "maxWidth": 640
+                },
+                {
+                  "url": "https://image-cdn-ak.spotifycdn.com/image/ab6761610000f178ad399b01a59a6935ca5954d3",
+                  "maxHeight": 160,
+                  "maxWidth": 160
+                }
+              ]
+            }
+          },
+          "embeded_entity_uri": "spotify:artist:3OHwlQfXYEFe5ynRosykmE",
+          "defaultAudioFileObject": {
+            "passthrough": "NONE"
+          }
+        },
+        "settings": {
+          "rtl": false,
+          "session": {
+            "accessToken": "BQABe5WBuYLXq-p7Oinj7TnAIy5CqyqGAa4RuH5fXK_hJPDVcIruVlSLRSDhM7H8k1I2pOgkeYuoQP7-TRl4Zc9J-DCDvB73nFuyMVT05ZlyDkxsbLkY4gfkkV6UEO_Yzz3piOTrGs9I",
+            "accessTokenExpirationTimestampMs": 1791322731635,
+            "isAnonymous": true
+          },
+          "clientId": "ab9ad0d96a624805a7d51e8868df1f97",
+          "entityContext": "artist",
+          "isMobile": false,
+          "isSafari": true,
+          "isIOS": false,
+          "isTablet": false,
+          "isDarkMode": false
+        },
+        "machineState": {
+          "initialized": false,
+          "showOverflowMenu": false,
+          "playbackMode": "unknown",
+          "currentPreviewTrackIndex": 0,
+          "platformSupportsEncryptedContent": false
+        }
+      },
+      "config": {
+        "correlationId": "86362284eaa941a573917afdbf79b2f3",
+        "strings": {
+          "en": {
+            "translation": {}
+          }
+        },
+        "locale": "en",
+        "clientId": "ab9ad0d96a624805a7d51e8868df1f97",
+        "restrictionId": ""
+      },
+      "_sentryTraceData": "470f0622986c86bdf46d3a562d588682-f12de312cc6b56ff-0",
+      "_sentryBaggage": "sentry-environment=production,sentry-release=adcf0b462b160cb69b69e233dac74be93f794433,sentry-public_key=4cc707ab12ea4779b417479c0550a5cb,sentry-trace_id=470f0622986c86bdf46d3a562d588682,sentry-org_id=22381,sentry-sampled=false,sentry-sample_rand=0.7060018095823509,sentry-sample_rate=0"
+    },
+    "__N_SSP": true
+  },
+  "page": "/artist/[id]",
+  "query": {
+    "id": "3OHwlQfXYEFe5ynRosykmE"
+  },
+  "buildId": "74b3c9b0-e6d2-4d74-a314-e6b30b1fd2ed",
+  "assetPrefix": "https://embed-cdn.spotifycdn.com",
+  "isFallback": false,
+  "isExperimentalCompile": false,
+  "gssp": true,
+  "scriptLoader": []
+}

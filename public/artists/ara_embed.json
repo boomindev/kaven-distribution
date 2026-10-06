@@ -1,0 +1,320 @@
+{
+  "props": {
+    "pageProps": {
+      "state": {
+        "data": {
+          "entity": {
+            "type": "artist",
+            "name": "ARA",
+            "uri": "spotify:artist:5wkxQh0fD5bsqxKm6Ajv7o",
+            "id": "5wkxQh0fD5bsqxKm6Ajv7o",
+            "title": "ARA",
+            "subtitle": "Top tracks",
+            "releaseDate": null,
+            "duration": 0,
+            "isPlayable": true,
+            "playabilityReason": "PLAYABLE",
+            "isExplicit": false,
+            "hasVideo": false,
+            "relatedEntityUri": "spotify:artist:5wkxQh0fD5bsqxKm6Ajv7o",
+            "trackList": [
+              {
+                "uri": "spotify:track:4v45rww5vNHvlu3iqdwa9u",
+                "uid": "1450ecdabf2f37a67e59",
+                "title": "Bichigyal - Remix",
+                "subtitle": "PRIZE,\u00a0Sautu,\u00a0ARA,\u00a0Ramma,\u00a0c n d,\u00a0Tiano,\u00a0almeja",
+                "isExplicit": false,
+                "isNineteenPlus": false,
+                "contentRatings": {
+                  "labels": []
+                },
+                "duration": 330000,
+                "isPlayable": true,
+                "playabilityReason": "PLAYABLE",
+                "audioPreview": {
+                  "format": "MP3_96",
+                  "url": "https://p.scdn.co/mp3-preview/3cfc463090a965b4c30c3ac53225162c86447bfd"
+                },
+                "entityType": "track"
+              },
+              {
+                "uri": "spotify:track:09l76TiKhPfZTLhkLxFeFM",
+                "uid": "ce6b8a830b4c4cafe1fc",
+                "title": "QUIERO AMARTE",
+                "subtitle": "ARA,\u00a0Oney1",
+                "isExplicit": false,
+                "isNineteenPlus": false,
+                "contentRatings": {
+                  "labels": []
+                },
+                "duration": 125711,
+                "isPlayable": true,
+                "playabilityReason": "PLAYABLE",
+                "audioPreview": {
+                  "format": "MP3_96",
+                  "url": "https://p.scdn.co/mp3-preview/8ecb28ad03e386e67d287f466341fa0896388539"
+                },
+                "entityType": "track"
+              },
+              {
+                "uri": "spotify:track:1JMvcvyLyS1RsCWk7gOcy7",
+                "uid": "224b5b0d7b1d95340db6",
+                "title": "15MIN AL DIA",
+                "subtitle": "Oney1,\u00a0ARA",
+                "isExplicit": true,
+                "isNineteenPlus": false,
+                "contentRatings": {
+                  "labels": [
+                    "EXPLICIT"
+                  ]
+                },
+                "duration": 152035,
+                "isPlayable": true,
+                "playabilityReason": "PLAYABLE",
+                "audioPreview": {
+                  "format": "MP3_96",
+                  "url": "https://p.scdn.co/mp3-preview/1b79f1be2b8daed291ac42e44437e0b3e32b5c45"
+                },
+                "entityType": "track"
+              },
+              {
+                "uri": "spotify:track:7yoqxVu48MhMSaHT07Atdo",
+                "uid": "b90faaf53744fe8e7704",
+                "title": "me engualichaste remix",
+                "subtitle": "Nat\u00e1n,\u00a0ARA",
+                "isExplicit": false,
+                "isNineteenPlus": false,
+                "contentRatings": {
+                  "labels": []
+                },
+                "duration": 202593,
+                "isPlayable": true,
+                "playabilityReason": "PLAYABLE",
+                "audioPreview": {
+                  "format": "MP3_96",
+                  "url": "https://p.scdn.co/mp3-preview/340efb7c151cea9ce43ea76d1382a7b9c764b9a2"
+                },
+                "entityType": "track"
+              },
+              {
+                "uri": "spotify:track:6JSkchnL5tqzRfgBG4Km7L",
+                "uid": "ea1f39836e68116cce11",
+                "title": "Abajo de las Estrellas",
+                "subtitle": "Ramma,\u00a0ARA,\u00a0Knak,\u00a0Tadu V\u00e1zquez",
+                "isExplicit": false,
+                "isNineteenPlus": false,
+                "contentRatings": {
+                  "labels": []
+                },
+                "duration": 175038,
+                "isPlayable": true,
+                "playabilityReason": "PLAYABLE",
+                "audioPreview": {
+                  "format": "MP3_96",
+                  "url": "https://p.scdn.co/mp3-preview/be003b8af91e615726eec0dfe3c8b0f8065469d3"
+                },
+                "entityType": "track"
+              },
+              {
+                "uri": "spotify:track:50qWyVygeA1YqR83AN3GzV",
+                "uid": "17eeea4607914c2458a6",
+                "title": "Si Ya No Est\u00e1s",
+                "subtitle": "Seven Kayne,\u00a0ARA",
+                "isExplicit": false,
+                "isNineteenPlus": false,
+                "contentRatings": {
+                  "labels": []
+                },
+                "duration": 177777,
+                "isPlayable": true,
+                "playabilityReason": "PLAYABLE",
+                "audioPreview": {
+                  "format": "MP3_96",
+                  "url": "https://p.scdn.co/mp3-preview/1cd357a93d21c62862c51122fbdc0f31b048b28e"
+                },
+                "entityType": "track"
+              },
+              {
+                "uri": "spotify:track:3ay9gVcgxlrOpenftwYtpB",
+                "uid": "6da30ac9c3c267df1882",
+                "title": "notienetanto",
+                "subtitle": "ARA,\u00a0Roxxee",
+                "isExplicit": false,
+                "isNineteenPlus": false,
+                "contentRatings": {
+                  "labels": []
+                },
+                "duration": 102000,
+                "isPlayable": true,
+                "playabilityReason": "PLAYABLE",
+                "audioPreview": {
+                  "format": "MP3_96",
+                  "url": "https://p.scdn.co/mp3-preview/30ffd8007e3186ca9a72839797d97753a45934b2"
+                },
+                "entityType": "track"
+              },
+              {
+                "uri": "spotify:track:3DjFdpXKA3QlCKnDQzjny3",
+                "uid": "5b175b30e55f950f9aec",
+                "title": "MVD",
+                "subtitle": "ARA",
+                "isExplicit": false,
+                "isNineteenPlus": false,
+                "contentRatings": {
+                  "labels": []
+                },
+                "duration": 146604,
+                "isPlayable": true,
+                "playabilityReason": "PLAYABLE",
+                "audioPreview": {
+                  "format": "MP3_96",
+                  "url": "https://p.scdn.co/mp3-preview/7c7849ca7e9605e312f8b035c2399fe45953cc04"
+                },
+                "entityType": "track"
+              },
+              {
+                "uri": "spotify:track:6LvFQ1SmVLLexlOtXVseh0",
+                "uid": "7bfefcf114f333a5d60c",
+                "title": "No-o-O",
+                "subtitle": "ARA",
+                "isExplicit": true,
+                "isNineteenPlus": false,
+                "contentRatings": {
+                  "labels": [
+                    "EXPLICIT"
+                  ]
+                },
+                "duration": 119155,
+                "isPlayable": true,
+                "playabilityReason": "PLAYABLE",
+                "audioPreview": {
+                  "format": "MP3_96",
+                  "url": "https://p.scdn.co/mp3-preview/1ecdfdf56c66770064ded29a27d2b356f58dd036"
+                },
+                "entityType": "track"
+              },
+              {
+                "uri": "spotify:track:6ne0grYeIAvmr31GwvtbU5",
+                "uid": "eb1b983c5670f0ff904d",
+                "title": "AVISAME SI ESTAS SOLA",
+                "subtitle": "ARA,\u00a0Dazen",
+                "isExplicit": false,
+                "isNineteenPlus": false,
+                "contentRatings": {
+                  "labels": []
+                },
+                "duration": 140924,
+                "isPlayable": true,
+                "playabilityReason": "PLAYABLE",
+                "audioPreview": {
+                  "format": "MP3_96",
+                  "url": "https://p.scdn.co/mp3-preview/e80408dd968551c0e7931e452df1b2d5a8b8c89e"
+                },
+                "entityType": "track"
+              }
+            ],
+            "visualIdentity": {
+              "backgroundBase": {
+                "alpha": 255,
+                "blue": 56,
+                "green": 62,
+                "red": 130
+              },
+              "backgroundTintedBase": {
+                "alpha": 255,
+                "blue": 23,
+                "green": 27,
+                "red": 90
+              },
+              "textBase": {
+                "alpha": 255,
+                "blue": 255,
+                "green": 255,
+                "red": 255
+              },
+              "textBrightAccent": {
+                "alpha": 255,
+                "blue": 255,
+                "green": 255,
+                "red": 255
+              },
+              "textSubdued": {
+                "alpha": 255,
+                "blue": 180,
+                "green": 189,
+                "red": 255
+              },
+              "image": [
+                {
+                  "url": "https://image-cdn-ak.spotifycdn.com/image/ab676161000051745a1793ab6e70e09a0afc3e77",
+                  "maxHeight": 320,
+                  "maxWidth": 320
+                },
+                {
+                  "url": "https://image-cdn-ak.spotifycdn.com/image/ab6761610000e5eb5a1793ab6e70e09a0afc3e77",
+                  "maxHeight": 640,
+                  "maxWidth": 640
+                },
+                {
+                  "url": "https://image-cdn-ak.spotifycdn.com/image/ab6761610000f1785a1793ab6e70e09a0afc3e77",
+                  "maxHeight": 160,
+                  "maxWidth": 160
+                }
+              ]
+            }
+          },
+          "embeded_entity_uri": "spotify:artist:5wkxQh0fD5bsqxKm6Ajv7o",
+          "defaultAudioFileObject": {
+            "passthrough": "NONE"
+          }
+        },
+        "settings": {
+          "rtl": false,
+          "session": {
+            "accessToken": "BQCDHPD8OgrGDFi9wMH723oNCTWvP4yturAFlHS5s0DFlpjFVyvy0p5AgV7cbcVAw6lWvZA4nMIhdg9HXwJjS6FqngYhjDA1ajrXoY83-N-VYtv212JliAq6bRe3pgf4PB7rCAygiyDU",
+            "accessTokenExpirationTimestampMs": 1791322258789,
+            "isAnonymous": true
+          },
+          "clientId": "ab9ad0d96a624805a7d51e8868df1f97",
+          "entityContext": "artist",
+          "isMobile": false,
+          "isSafari": true,
+          "isIOS": false,
+          "isTablet": false,
+          "isDarkMode": false
+        },
+        "machineState": {
+          "initialized": false,
+          "showOverflowMenu": false,
+          "playbackMode": "unknown",
+          "currentPreviewTrackIndex": 0,
+          "platformSupportsEncryptedContent": false
+        }
+      },
+      "config": {
+        "correlationId": "cb024f8ff9a53fade0db075f793c4c9b",
+        "strings": {
+          "en": {
+            "translation": {}
+          }
+        },
+        "locale": "en",
+        "clientId": "ab9ad0d96a624805a7d51e8868df1f97",
+        "restrictionId": ""
+      },
+      "_sentryTraceData": "7d74863e68a84a4ceec90bf647b0d383-cbb72b906d53b2dc-0",
+      "_sentryBaggage": "sentry-environment=production,sentry-release=adcf0b462b160cb69b69e233dac74be93f794433,sentry-public_key=4cc707ab12ea4779b417479c0550a5cb,sentry-trace_id=7d74863e68a84a4ceec90bf647b0d383,sentry-org_id=22381,sentry-sampled=false,sentry-sample_rand=0.7827070211768621,sentry-sample_rate=0"
+    },
+    "__N_SSP": true
+  },
+  "page": "/artist/[id]",
+  "query": {
+    "id": "5wkxQh0fD5bsqxKm6Ajv7o"
+  },
+  "buildId": "74b3c9b0-e6d2-4d74-a314-e6b30b1fd2ed",
+  "assetPrefix": "https://embed-cdn.spotifycdn.com",
+  "isFallback": false,
+  "isExperimentalCompile": false,
+  "gssp": true,
+  "scriptLoader": []
+}

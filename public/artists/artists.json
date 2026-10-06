@@ -1,0 +1,47 @@
+[
+  {
+    "id": "3OHwlQfXYEFe5ynRosykmE",
+    "name": "ENEZ 4R",
+    "slug": "enez-4r",
+    "spotifyUrl": "https://open.spotify.com/artist/3OHwlQfXYEFe5ynRosykmE",
+    "embedUrl": "https://open.spotify.com/embed/artist/3OHwlQfXYEFe5ynRosykmE",
+    "imageUrl": "/artists/enez-4r.jpg",
+    "remoteImageUrl": "https://image-cdn-ak.spotifycdn.com/image/ab6761610000e5ebad399b01a59a6935ca5954d3"
+  },
+  {
+    "id": "4QIM495B5wWD9B24Fsi4aR",
+    "name": "Ambik",
+    "slug": "ambik",
+    "spotifyUrl": "https://open.spotify.com/artist/4QIM495B5wWD9B24Fsi4aR",
+    "embedUrl": "https://open.spotify.com/embed/artist/4QIM495B5wWD9B24Fsi4aR",
+    "imageUrl": "/artists/ambik.jpg",
+    "remoteImageUrl": "https://image-cdn-ak.spotifycdn.com/image/ab6761610000e5eb086c926c7b5a9ff6c9482422"
+  },
+  {
+    "id": "4VEnO9rQaCXMwE5yezIrGS",
+    "name": "CHANCRA",
+    "slug": "chancra",
+    "spotifyUrl": "https://open.spotify.com/artist/4VEnO9rQaCXMwE5yezIrGS",
+    "embedUrl": "https://open.spotify.com/embed/artist/4VEnO9rQaCXMwE5yezIrGS",
+    "imageUrl": "/artists/chancra.jpg",
+    "remoteImageUrl": "https://image-cdn-ak.spotifycdn.com/image/ab6761610000e5eb713d70d4beaa212efe237bd7"
+  },
+  {
+    "id": "2BqyeAgtwMSJy10mHIQuEO",
+    "name": "Zabu Mami",
+    "slug": "zabu-mami",
+    "spotifyUrl": "https://open.spotify.com/artist/2BqyeAgtwMSJy10mHIQuEO",
+    "embedUrl": "https://open.spotify.com/embed/artist/2BqyeAgtwMSJy10mHIQuEO",
+    "imageUrl": "/artists/zabu-mami.jpg",
+    "remoteImageUrl": "https://image-cdn-ak.spotifycdn.com/image/ab6761610000e5eb57709466d8ae4075c1bd3524"
+  },
+  {
+    "id": "5wkxQh0fD5bsqxKm6Ajv7o",
+    "name": "ARA",
+    "slug": "ara",
+    "spotifyUrl": "https://open.spotify.com/artist/5wkxQh0fD5bsqxKm6Ajv7o",
+    "embedUrl": "https://open.spotify.com/embed/artist/5wkxQh0fD5bsqxKm6Ajv7o",
+    "imageUrl": "/artists/ara.jpg",
+    "remoteImageUrl": "https://image-cdn-fa.spotifycdn.com/image/ab6761610000e5eb5a1793ab6e70e09a0afc3e77"
+  }
+]

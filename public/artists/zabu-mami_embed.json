@@ -1,0 +1,334 @@
+{
+  "props": {
+    "pageProps": {
+      "state": {
+        "data": {
+          "entity": {
+            "type": "artist",
+            "name": "Zabu Mami",
+            "uri": "spotify:artist:2BqyeAgtwMSJy10mHIQuEO",
+            "id": "2BqyeAgtwMSJy10mHIQuEO",
+            "title": "Zabu Mami",
+            "subtitle": "Top tracks",
+            "releaseDate": null,
+            "duration": 0,
+            "isPlayable": true,
+            "playabilityReason": "PLAYABLE",
+            "isExplicit": false,
+            "hasVideo": false,
+            "relatedEntityUri": "spotify:artist:2BqyeAgtwMSJy10mHIQuEO",
+            "trackList": [
+              {
+                "uri": "spotify:track:6eiJ6Adg1EG4VaQqpoQEu3",
+                "uid": "ed31241f1af78f111370",
+                "title": "Vero Buffone",
+                "subtitle": "Zabu Mami",
+                "isExplicit": true,
+                "isNineteenPlus": false,
+                "contentRatings": {
+                  "labels": [
+                    "EXPLICIT"
+                  ]
+                },
+                "duration": 144504,
+                "isPlayable": true,
+                "playabilityReason": "PLAYABLE",
+                "audioPreview": {
+                  "format": "MP3_96",
+                  "url": "https://p.scdn.co/mp3-preview/2095e3c6439eedc5c37088e706eb9007d1d1d529"
+                },
+                "entityType": "track"
+              },
+              {
+                "uri": "spotify:track:1GaXjENPyoSm3nwpIQM5Az",
+                "uid": "8f9578b9fd7544573878",
+                "title": "Sin Receta",
+                "subtitle": "Falke 912,\u00a0Zabu Mami",
+                "isExplicit": false,
+                "isNineteenPlus": false,
+                "contentRatings": {
+                  "labels": []
+                },
+                "duration": 136595,
+                "isPlayable": true,
+                "playabilityReason": "PLAYABLE",
+                "audioPreview": {
+                  "format": "MP3_96",
+                  "url": "https://p.scdn.co/mp3-preview/214afd6109b079511faf54f4ceea343e0a508101"
+                },
+                "entityType": "track"
+              },
+              {
+                "uri": "spotify:track:3dICybtBxoP1nnULFq3lGV",
+                "uid": "45586dc8ea0abcb1d1b5",
+                "title": "Nos Fuimo a lo Loco",
+                "subtitle": "Zabu Mami",
+                "isExplicit": true,
+                "isNineteenPlus": false,
+                "contentRatings": {
+                  "labels": [
+                    "EXPLICIT"
+                  ]
+                },
+                "duration": 96903,
+                "isPlayable": true,
+                "playabilityReason": "PLAYABLE",
+                "audioPreview": {
+                  "format": "MP3_96",
+                  "url": "https://p.scdn.co/mp3-preview/b30ff56639f40b28099514d3d2c4404230215a69"
+                },
+                "entityType": "track"
+              },
+              {
+                "uri": "spotify:track:3YEwwpSOQI4UIzCoU3nZEF",
+                "uid": "3d3cfa0399e354ac1b9f",
+                "title": "Chuculeando",
+                "subtitle": "Zabu Mami",
+                "isExplicit": true,
+                "isNineteenPlus": false,
+                "contentRatings": {
+                  "labels": [
+                    "EXPLICIT"
+                  ]
+                },
+                "duration": 106693,
+                "isPlayable": true,
+                "playabilityReason": "PLAYABLE",
+                "audioPreview": {
+                  "format": "MP3_96",
+                  "url": "https://p.scdn.co/mp3-preview/cada287a0244e0e488d093a684be9cdaa854e5a8"
+                },
+                "entityType": "track"
+              },
+              {
+                "uri": "spotify:track:7MFH07IvxYASmzIYh9i1JP",
+                "uid": "c8a3ecbad86cd134a211",
+                "title": "Fuletaso",
+                "subtitle": "Zabu Mami,\u00a0Rayder,\u00a0Golden",
+                "isExplicit": true,
+                "isNineteenPlus": false,
+                "contentRatings": {
+                  "labels": [
+                    "EXPLICIT"
+                  ]
+                },
+                "duration": 158834,
+                "isPlayable": true,
+                "playabilityReason": "PLAYABLE",
+                "audioPreview": {
+                  "format": "MP3_96",
+                  "url": "https://p.scdn.co/mp3-preview/2994c27df84c602ca336f3849e3337c5506adf3e"
+                },
+                "entityType": "track"
+              },
+              {
+                "uri": "spotify:track:2Ypw2puzc6giH2HsodbCtu",
+                "uid": "53a724aeaed8bbf1ac58",
+                "title": "A",
+                "subtitle": "Zabu Mami",
+                "isExplicit": true,
+                "isNineteenPlus": false,
+                "contentRatings": {
+                  "labels": [
+                    "EXPLICIT"
+                  ]
+                },
+                "duration": 130187,
+                "isPlayable": true,
+                "playabilityReason": "PLAYABLE",
+                "audioPreview": {
+                  "format": "MP3_96",
+                  "url": "https://p.scdn.co/mp3-preview/6d7626fb6451efbd263550d561c8b4912a8d67f5"
+                },
+                "entityType": "track"
+              },
+              {
+                "uri": "spotify:track:3jw2d7vjJPilFJcTnNGVai",
+                "uid": "fa35ae6fa63190e2daf7",
+                "title": "GAS MONTANA",
+                "subtitle": "Zabu Mami",
+                "isExplicit": true,
+                "isNineteenPlus": false,
+                "contentRatings": {
+                  "labels": [
+                    "EXPLICIT"
+                  ]
+                },
+                "duration": 123254,
+                "isPlayable": true,
+                "playabilityReason": "PLAYABLE",
+                "audioPreview": {
+                  "format": "MP3_96",
+                  "url": "https://p.scdn.co/mp3-preview/9974151d46c1fd9153c76d71574728823a3b3c96"
+                },
+                "entityType": "track"
+              },
+              {
+                "uri": "spotify:track:6O0hO3r6TPPZYwNldSK6JK",
+                "uid": "5d2ea91c1d48aeb0b24e",
+                "title": "TENGO UNA PU@!",
+                "subtitle": "Zabu Mami",
+                "isExplicit": true,
+                "isNineteenPlus": false,
+                "contentRatings": {
+                  "labels": [
+                    "EXPLICIT"
+                  ]
+                },
+                "duration": 101189,
+                "isPlayable": true,
+                "playabilityReason": "PLAYABLE",
+                "audioPreview": {
+                  "format": "MP3_96",
+                  "url": "https://p.scdn.co/mp3-preview/48224eb2477653ceab9e60e1e50c5e20e455338f"
+                },
+                "entityType": "track"
+              },
+              {
+                "uri": "spotify:track:3RBhG2e7ucfbMKY0jwQk9M",
+                "uid": "b020fdba61f552e362b5",
+                "title": "Conmigo te la Pasas",
+                "subtitle": "Zabu Mami",
+                "isExplicit": true,
+                "isNineteenPlus": false,
+                "contentRatings": {
+                  "labels": [
+                    "EXPLICIT"
+                  ]
+                },
+                "duration": 89834,
+                "isPlayable": true,
+                "playabilityReason": "PLAYABLE",
+                "audioPreview": {
+                  "format": "MP3_96",
+                  "url": "https://p.scdn.co/mp3-preview/93cd6686b74ffeca9f6bc5a47149fe8fbd147b33"
+                },
+                "entityType": "track"
+              },
+              {
+                "uri": "spotify:track:2N511vngTY537bZy6rcl3r",
+                "uid": "f71e60860df10df7759e",
+                "title": "si no la pego por lo menos tuve fe",
+                "subtitle": "Zabu Mami,\u00a0Golden",
+                "isExplicit": true,
+                "isNineteenPlus": false,
+                "contentRatings": {
+                  "labels": [
+                    "EXPLICIT"
+                  ]
+                },
+                "duration": 145454,
+                "isPlayable": true,
+                "playabilityReason": "PLAYABLE",
+                "audioPreview": {
+                  "format": "MP3_96",
+                  "url": "https://p.scdn.co/mp3-preview/8bf9743957b1a7f1dce694bc7ddd6a29cc993b4f"
+                },
+                "entityType": "track"
+              }
+            ],
+            "visualIdentity": {
+              "backgroundBase": {
+                "alpha": 255,
+                "blue": 43,
+                "green": 80,
+                "red": 101
+              },
+              "backgroundTintedBase": {
+                "alpha": 255,
+                "blue": 7,
+                "green": 47,
+                "red": 67
+              },
+              "textBase": {
+                "alpha": 255,
+                "blue": 255,
+                "green": 255,
+                "red": 255
+              },
+              "textBrightAccent": {
+                "alpha": 255,
+                "blue": 255,
+                "green": 255,
+                "red": 255
+              },
+              "textSubdued": {
+                "alpha": 255,
+                "blue": 162,
+                "green": 202,
+                "red": 227
+              },
+              "image": [
+                {
+                  "url": "https://image-cdn-ak.spotifycdn.com/image/ab6761610000517457709466d8ae4075c1bd3524",
+                  "maxHeight": 320,
+                  "maxWidth": 320
+                },
+                {
+                  "url": "https://image-cdn-ak.spotifycdn.com/image/ab6761610000e5eb57709466d8ae4075c1bd3524",
+                  "maxHeight": 640,
+                  "maxWidth": 640
+                },
+                {
+                  "url": "https://image-cdn-ak.spotifycdn.com/image/ab6761610000f17857709466d8ae4075c1bd3524",
+                  "maxHeight": 160,
+                  "maxWidth": 160
+                }
+              ]
+            }
+          },
+          "embeded_entity_uri": "spotify:artist:2BqyeAgtwMSJy10mHIQuEO",
+          "defaultAudioFileObject": {
+            "passthrough": "NONE"
+          }
+        },
+        "settings": {
+          "rtl": false,
+          "session": {
+            "accessToken": "BQABe5WBuYLXq-p7Oinj7TnAIy5CqyqGAa4RuH5fXK_hJPDVcIruVlSLRSDhM7H8k1I2pOgkeYuoQP7-TRl4Zc9J-DCDvB73nFuyMVT05ZlyDkxsbLkY4gfkkV6UEO_Yzz3piOTrGs9I",
+            "accessTokenExpirationTimestampMs": 1791322731635,
+            "isAnonymous": true
+          },
+          "clientId": "ab9ad0d96a624805a7d51e8868df1f97",
+          "entityContext": "artist",
+          "isMobile": false,
+          "isSafari": true,
+          "isIOS": false,
+          "isTablet": false,
+          "isDarkMode": false
+        },
+        "machineState": {
+          "initialized": false,
+          "showOverflowMenu": false,
+          "playbackMode": "unknown",
+          "currentPreviewTrackIndex": 0,
+          "platformSupportsEncryptedContent": false
+        }
+      },
+      "config": {
+        "correlationId": "30e8d10f7223b9a723d926d3f6f812b0",
+        "strings": {
+          "en": {
+            "translation": {}
+          }
+        },
+        "locale": "en",
+        "clientId": "ab9ad0d96a624805a7d51e8868df1f97",
+        "restrictionId": ""
+      },
+      "_sentryTraceData": "dd064060a43005562f7f38aca13e4254-1da53d8be6b9f95a-0",
+      "_sentryBaggage": "sentry-environment=production,sentry-release=adcf0b462b160cb69b69e233dac74be93f794433,sentry-public_key=4cc707ab12ea4779b417479c0550a5cb,sentry-trace_id=dd064060a43005562f7f38aca13e4254,sentry-org_id=22381,sentry-sampled=false,sentry-sample_rand=0.8216468524593614,sentry-sample_rate=0"
+    },
+    "__N_SSP": true
+  },
+  "page": "/artist/[id]",
+  "query": {
+    "id": "2BqyeAgtwMSJy10mHIQuEO"
+  },
+  "buildId": "74b3c9b0-e6d2-4d74-a314-e6b30b1fd2ed",
+  "assetPrefix": "https://embed-cdn.spotifycdn.com",
+  "isFallback": false,
+  "isExperimentalCompile": false,
+  "gssp": true,
+  "scriptLoader": []
+}
