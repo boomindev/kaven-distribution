@@ -13,13 +13,13 @@ export const SERVICES: ServiceItem[] = [
     id: "digital-distribution",
     number: "01",
     title: "DIGITAL DISTRIBUTION",
-    shortDesc: "Distribución digital de música a plataformas globales.",
-    description: "Conectamos tu música con más de 150 plataformas de streaming y descarga en todo el mundo. Entrega instantánea, metadatos precisos y cobertura global completa sin intermediarios innecesarios.",
+    shortDesc: "Digital music delivery across global streaming platforms.",
+    description: "We connect your music to 150+ streaming and download platforms worldwide. Instant ingestion, pristine metadata, and complete global footprint with zero unnecessary middlemen.",
     features: [
-      "Distribución a Spotify, Apple Music, TikTok, Amazon, YouTube Music y más",
-      "Procesamiento rápido de lanzamientos y control de calidad",
-      "Monetización en redes sociales (Instagram, TikTok, YouTube Content ID)",
-      "Pagos directos y reportes transparentes"
+      "Distribution to Spotify, Apple Music, TikTok, Amazon, YouTube Music and more",
+      "Rapid release processing and meticulous quality control",
+      "Social media monetization (Instagram, TikTok, YouTube Content ID)",
+      "Direct royalty accounting and transparent reporting"
     ],
     highlight: "150+ Digital Storefronts Worldwide"
   },
@@ -27,13 +27,13 @@ export const SERVICES: ServiceItem[] = [
     id: "release-management",
     number: "02",
     title: "RELEASE MANAGEMENT",
-    shortDesc: "Gestión profesional de lanzamientos y catálogos.",
-    description: "Planificación estratégica previa, durante y post-lanzamiento. Desde la sincronización de fechas clave y material visual hasta la optimización de pre-saves y pitches editoriales.",
+    shortDesc: "Professional release planning and catalog administration.",
+    description: "Strategic pre-, during, and post-release execution. From timeline orchestration and visual assets to pre-save momentum and editorial pitching.",
     features: [
-      "Cronogramas estratégicos de lanzamiento y single rollouts",
-      "Preparación y presentación de pitch editorial para playlists",
-      "Coordinación de metadatos, ISRC, UPC y créditos oficiales",
-      "Campañas coordinadas de pre-save y smart links"
+      "Strategic release calendars and multi-single rollout workflows",
+      "Editorial pitch preparation and direct DSP submissions",
+      "Comprehensive metadata coordination: ISRC, UPC, and official credits",
+      "Coordinated pre-save campaigns and smart link management"
     ],
     highlight: "Precision Rollout Strategy"
   },
@@ -41,13 +41,13 @@ export const SERVICES: ServiceItem[] = [
     id: "artist-development",
     number: "03",
     title: "ARTIST DEVELOPMENT",
-    shortDesc: "Herramientas y servicios para ayudar a desarrollar artistas.",
-    description: "Construimos trayectorias sólidas y sostenibles. Asesoramiento dedicado en estrategia de marca, alianzas de la industria, optimización de audiencia y proyección artística a largo plazo.",
+    shortDesc: "Tools and strategic advisory to build lasting artist careers.",
+    description: "We build enduring, sustainable artistic careers. Tailored consultation in brand positioning, industry alliances, audience acquisition, and long-range artistic direction.",
     features: [
-      "Consultoría estratégica personalizada para proyectos artísticos",
-      "Dirección de identidad visual y coherencia de marca",
-      "Conexión con productores, compositores e ingenieros de primer nivel",
-      "Estrategias de engagement y retención de audiencia"
+      "Custom strategic advisory for forward-thinking music projects",
+      "Visual identity direction and brand cohesion",
+      "Direct connections to premier producers, songwriters, and audio engineers",
+      "Audience retention systems and community engagement strategy"
     ],
     highlight: "Sustainable Career Architecture"
   },
@@ -55,13 +55,13 @@ export const SERVICES: ServiceItem[] = [
     id: "catalog-management",
     number: "04",
     title: "CATALOG MANAGEMENT",
-    shortDesc: "Gestión y monetización integral de catálogos existentes.",
-    description: "Tu catálogo es tu mayor activo financiero. Maximizamos el valor residual de grabaciones anteriores mediante optimización de metadatos, relanzamientos estratégicos y preservación digital.",
+    shortDesc: "Holistic optimization and monetization of existing catalogs.",
+    description: "Your catalog is your primary financial asset. We maximize the long-tail value of heritage and back-catalog recordings through metadata enhancement, strategic re-releases, and digital preservation.",
     features: [
-      "Auditoría técnica de catálogos y corrección de metadatos",
-      "Migración fluida de catálogo sin pérdida de reproducciones",
-      "Estrategias de monetización para pistas de fondo de catálogo",
-      "Protección de derechos de autor y control de duplicados"
+      "Catalog technical audit and metadata reconciliation",
+      "Seamless catalog migration without loss of streaming counts",
+      "Monetization optimization for deep-catalog tracks",
+      "Copyright protection and duplicate fingerprint dispute resolution"
     ],
     highlight: "Lifetime Asset Preservation"
   },
@@ -69,13 +69,13 @@ export const SERVICES: ServiceItem[] = [
     id: "analytics-insights",
     number: "05",
     title: "ANALYTICS & INSIGHTS",
-    shortDesc: "Seguimiento exhaustivo del rendimiento de lanzamientos.",
-    description: "Métricas claras, accionables y en tiempo real. Entiende exactamente quién escucha tu música, en qué ciudades, qué playlists generan tracción y de dónde proviene tu crecimiento orgánico.",
+    shortDesc: "Comprehensive release performance tracking and intelligence.",
+    description: "Clear, actionable, real-time intelligence. Understand precisely who listens to your records, in which cities, which playlists drive algorithmic lift, and where organic fan momentum originates.",
     features: [
-      "Tableros de analítica en tiempo real por territorio y plataforma",
-      "Mapeo demográfico y tendencias de retención de oyentes",
-      "Rastreo de inclusiones en playlists editoriales y de usuarios",
-      "Informes financieros detallados y transparentes"
+      "Real-time analytics dashboards by territory and platform",
+      "Demographic profiling and listener retention trends",
+      "Tracking of editorial and listener-curated playlist adds",
+      "Detailed, audit-ready transparent financial reporting"
     ],
     highlight: "Real-time Intelligence"
   },
@@ -83,13 +83,13 @@ export const SERVICES: ServiceItem[] = [
     id: "global-exposure",
     number: "06",
     title: "GLOBAL EXPOSURE",
-    shortDesc: "Estrategias para que la música alcance nuevas audiencias.",
-    description: "Ampliamos las fronteras geográficas de tu sonido. Conectamos proyectos locales con audiencias globales, curadores internacionales y oportunidades transfronterizas de sincronización y directo.",
+    shortDesc: "Strategic expansion connecting music to new audiences.",
+    description: "Expanding the geographical horizons of your sound. We bridge domestic momentum with international audiences, global curators, cross-border brand partnerships, and sync licensing opportunities.",
     features: [
-      "Estrategia de penetración en mercados clave de Latinoamérica, EE.UU. y Europa",
-      "Sincronización para cine, series, videojuegos y publicidad",
-      "Relaciones con curadores independientes y marcas",
-      "Activaciones de marketing transfronterizo"
+      "Market penetration strategies for Latin America, North America, and Europe",
+      "Sync licensing pitching for film, television, gaming, and commercial advertising",
+      "Relations with tastemaker curators, independent media, and brands",
+      "Cross-border digital marketing campaigns and playlist activations"
     ],
     highlight: "Cross-Border Market Expansion"
   }

@@ -28,7 +28,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="es" className="dark">
+    <html lang="en" className="dark">
       <body className="bg-[#050505] text-white antialiased selection:bg-white selection:text-black">
         <NoiseOverlay />
         <div className="relative min-h-screen flex flex-col justify-between">

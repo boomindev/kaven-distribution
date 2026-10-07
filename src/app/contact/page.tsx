@@ -3,7 +3,7 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
-import { ArrowUpRight, CheckCircle2, Copy, Check, Mail, Sparkles } from "lucide-react";
+import { ArrowUpRight, CheckCircle2, Copy, Check, Mail, Sparkles, AlertCircle } from "lucide-react";
 
 export default function ContactPage() {
   const [formData, setFormData] = useState({
@@ -16,8 +16,10 @@ export default function ContactPage() {
   const [submitted, setSubmitted] = useState(false);
   const [loading, setLoading] = useState(false);
   const [copied, setCopied] = useState(false);
+  const [errorMessage, setErrorMessage] = useState<string | null>(null);
 
-  const officialEmail = "kavendistribution@gmail.com";
+  const officialEmail = "contact@kavendistribution.com";
+  const formspreeEndpoint = "https://formspree.io/f/mjyggwna";
 
   const handleCopyEmail = () => {
     navigator.clipboard.writeText(officialEmail);
@@ -25,15 +27,46 @@ export default function ContactPage() {
     setTimeout(() => setCopied(false), 2000);
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     if (!formData.name || !formData.email || !formData.message) return;
     setLoading(true);
+    setErrorMessage(null);
 
-    setTimeout(() => {
+    try {
+      const response = await fetch(formspreeEndpoint, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          Accept: "application/json",
+        },
+        body: JSON.stringify({
+          name: formData.name,
+          email: formData.email,
+          artistOrCompany: formData.artistOrCompany,
+          message: formData.message,
+        }),
+      });
+
+      if (response.ok) {
+        setSubmitted(true);
+      } else {
+        const data = await response.json().catch(() => null);
+        if (data && data.errors && data.errors.length > 0) {
+          setErrorMessage(
+            data.errors.map((err: { message: string }) => err.message).join(", ")
+          );
+        } else {
+          setErrorMessage(
+            "Failed to send message. Please try again or email us directly."
+          );
+        }
+      }
+    } catch {
+      setErrorMessage("Network error. Please try again or email us directly.");
+    } finally {
       setLoading(false);
-      setSubmitted(true);
-    }, 700);
+    }
   };
 
   const getMailtoLink = () => {
@@ -193,6 +226,7 @@ export default function ContactPage() {
                       <button
                         onClick={() => {
                           setSubmitted(false);
+                          setErrorMessage(null);
                           setFormData({ name: "", email: "", artistOrCompany: "", message: "" });
                         }}
                         className="px-6 py-3 border border-white/20 text-xs font-mono tracking-widest uppercase text-neutral-400 hover:text-white hover:border-white transition-all"
@@ -204,12 +238,21 @@ export default function ContactPage() {
                 ) : (
                   <motion.form
                     key="form"
+                    action={formspreeEndpoint}
+                    method="POST"
                     onSubmit={handleSubmit}
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
                     exit={{ opacity: 0 }}
                     className="space-y-6"
                   >
+                    {errorMessage && (
+                      <div className="p-4 bg-red-950/40 border border-red-500/30 text-red-300 text-xs font-mono flex items-center gap-2">
+                        <AlertCircle className="w-4 h-4 text-red-400 shrink-0" />
+                        <span>{errorMessage}</span>
+                      </div>
+                    )}
+
                     {/* Name */}
                     <div>
                       <label
@@ -220,6 +263,7 @@ export default function ContactPage() {
                       </label>
                       <input
                         id="name"
+                        name="name"
                         type="text"
                         required
                         value={formData.name}
@@ -241,6 +285,7 @@ export default function ContactPage() {
                       </label>
                       <input
                         id="email"
+                        name="email"
                         type="email"
                         required
                         value={formData.email}
@@ -262,6 +307,7 @@ export default function ContactPage() {
                       </label>
                       <input
                         id="artistOrCompany"
+                        name="artistOrCompany"
                         type="text"
                         value={formData.artistOrCompany}
                         onChange={(e) =>
@@ -285,6 +331,7 @@ export default function ContactPage() {
                       </label>
                       <textarea
                         id="message"
+                        name="message"
                         required
                         rows={5}
                         value={formData.message}

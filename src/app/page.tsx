@@ -4,36 +4,35 @@ import React, { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
-import { ArrowUpRight, Disc3, ShieldCheck, Globe2, Radio, Sparkles } from "lucide-react";
+import { ArrowUpRight, Disc3, ShieldCheck, Globe2, Sparkles } from "lucide-react";
 import { ARTISTS } from "@/data/artists";
-import { PARTNERS } from "@/data/partners";
 
 const homeServices = [
   {
     num: "01",
     title: "MUSIC DISTRIBUTION",
-    desc: "Distribución digital de música a plataformas globales.",
+    desc: "Digital music distribution across global streaming platforms.",
     tag: "150+ DSPS",
     icon: Disc3,
   },
   {
     num: "02",
     title: "ARTIST SERVICES",
-    desc: "Herramientas y servicios para ayudar a desarrollar artistas.",
+    desc: "Bespoke tools and career architecture to empower talent.",
     tag: "DEVELOPMENT",
     icon: Sparkles,
   },
   {
     num: "03",
     title: "RELEASE MANAGEMENT",
-    desc: "Gestión profesional de lanzamientos y catálogos.",
+    desc: "Professional release scheduling, editorial pitching, and catalog ops.",
     tag: "PRECISION",
     icon: ShieldCheck,
   },
   {
     num: "04",
     title: "GLOBAL REACH",
-    desc: "Ayudamos a que la música llegue a nuevas audiencias.",
+    desc: "Connecting sound to high-growth audiences and editorial reach worldwide.",
     tag: "WORLDWIDE",
     icon: Globe2,
   },
@@ -152,7 +151,7 @@ export default function HomePage() {
                 KAVEN Distribution connects visionary talent with worldwide streaming infrastructure, editorial playlist positioning, and transparent catalog growth.
               </p>
               <p className="text-sm text-neutral-400 font-light leading-relaxed">
-                Diseñado para artistas independientes y sellos que exigen rigor corporativo, alcance global y atención individualizada sin ceder el control de su visión.
+                Engineered for independent artists and labels demanding corporate rigor, global scale, and personalized execution without compromising creative control.
               </p>
               <div className="pt-2 flex items-center gap-8 text-xs font-mono text-neutral-400 tracking-[0.2em]">
                 <div>
@@ -333,49 +332,6 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* =========================================================================
-          PARTNERS PREVIEW
-          ========================================================================= */}
-      <section className="relative py-28 sm:py-36 px-6 sm:px-12 border-t border-white/[0.06]">
-        <div className="max-w-6xl mx-auto text-center">
-          <span className="text-xs tracking-[0.4em] text-neutral-400 uppercase font-mono block mb-3">
-            // DISTRIBUTION NETWORK
-          </span>
-          <h2 className="text-2xl sm:text-4xl font-extrabold tracking-[0.25em] uppercase text-white mb-4">
-            OUR PARTNERS
-          </h2>
-          <p className="text-xs sm:text-sm tracking-[0.2em] text-neutral-400 uppercase max-w-xl mx-auto font-light mb-16">
-            Direct ingestion channels and global streaming infrastructure.
-          </p>
-
-          {/* Clean Partner Badges */}
-          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-3 sm:gap-4">
-            {PARTNERS.map((partner) => (
-              <div
-                key={partner.id}
-                className="group p-5 bg-[#0a0a0a] border border-white/[0.06] hover:border-white/25 transition-all duration-300 flex flex-col items-center justify-center min-h-[90px]"
-              >
-                <span className="text-xs sm:text-sm font-semibold tracking-[0.2em] uppercase text-neutral-400 group-hover:text-white transition-colors">
-                  {partner.name}
-                </span>
-                <span className="text-[9px] font-mono text-neutral-400 tracking-wider mt-1 opacity-0 group-hover:opacity-100 transition-opacity">
-                  {partner.category}
-                </span>
-              </div>
-            ))}
-          </div>
-
-          <div className="mt-12">
-            <Link
-              href="/partners"
-              className="text-xs tracking-[0.25em] uppercase text-neutral-400 hover:text-white inline-flex items-center gap-2 transition-colors"
-            >
-              <span>VIEW FULL ECOSYSTEM</span>
-              <ArrowUpRight className="w-3.5 h-3.5" />
-            </Link>
-          </div>
-        </div>
-      </section>
 
       {/* =========================================================================
           CONTACT CTA SECTION

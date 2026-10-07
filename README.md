@@ -20,7 +20,7 @@ src/
 ├── app/
 │   ├── layout.tsx         # Master layout with NoiseOverlay, Navbar & Footer
 │   ├── template.tsx       # Route transition animation wrapper
-│   ├── page.tsx           # Home: Hero, Manifesto, Services, The Roster, Partners, CTA
+│   ├── page.tsx           # Home: Hero, Manifesto, Services, The Roster, CTA
 │   ├── artists/page.tsx   # Interactive Character Selector & Spotify intelligence
 │   ├── services/page.tsx  # Editorial breakdown of 6 core music capabilities
 │   ├── partners/page.tsx  # Global DSP & Streaming partner ecosystem
@@ -52,6 +52,6 @@ npm run start
 ```
 
 ## Contact
-- Official Inquiries: [kavendistribution@gmail.com](mailto:kavendistribution@gmail.com)
+- Official Inquiries: [contact@kavendistribution.com](mailto:contact@kavendistribution.com)
 
 &copy; 2026 KAVEN Distribution. All rights reserved.
