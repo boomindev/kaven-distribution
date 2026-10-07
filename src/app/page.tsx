@@ -1,46 +1,12 @@
 "use client";
 
-import React, { useState } from "react";
+import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
-import { ArrowUpRight, Disc3, ShieldCheck, Globe2, Sparkles } from "lucide-react";
-import { ARTISTS } from "@/data/artists";
-
-const homeServices = [
-  {
-    num: "01",
-    title: "MUSIC DISTRIBUTION",
-    desc: "Digital music distribution across global streaming platforms.",
-    tag: "150+ DSPS",
-    icon: Disc3,
-  },
-  {
-    num: "02",
-    title: "ARTIST SERVICES",
-    desc: "Bespoke tools and career architecture to empower talent.",
-    tag: "DEVELOPMENT",
-    icon: Sparkles,
-  },
-  {
-    num: "03",
-    title: "RELEASE MANAGEMENT",
-    desc: "Professional release scheduling, editorial pitching, and catalog ops.",
-    tag: "PRECISION",
-    icon: ShieldCheck,
-  },
-  {
-    num: "04",
-    title: "GLOBAL REACH",
-    desc: "Connecting sound to high-growth audiences and editorial reach worldwide.",
-    tag: "WORLDWIDE",
-    icon: Globe2,
-  },
-];
+import { ArrowUpRight } from "lucide-react";
 
 export default function HomePage() {
-  const [hoveredService, setHoveredService] = useState<number | null>(null);
-
   return (
     <div className="relative bg-[#050505] text-white overflow-hidden">
       {/* =========================================================================
@@ -130,7 +96,7 @@ export default function HomePage() {
       </section>
 
       {/* =========================================================================
-          INTRO SECTION
+          INTRO / MANIFESTO SECTION
           ========================================================================= */}
       <section className="relative py-28 sm:py-36 px-6 sm:px-12 border-t border-white/[0.06] bg-[#070707]">
         <div className="max-w-6xl mx-auto">
@@ -173,165 +139,6 @@ export default function HomePage() {
           </div>
         </div>
       </section>
-
-      {/* =========================================================================
-          SERVICES PREVIEW
-          ========================================================================= */}
-      <section className="relative py-28 sm:py-36 px-6 sm:px-12 border-t border-white/[0.06]">
-        <div className="max-w-7xl mx-auto">
-          <div className="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-6">
-            <div>
-              <span className="text-xs tracking-[0.4em] text-neutral-400 uppercase font-mono block mb-3">
-                // CAPABILITIES
-              </span>
-              <h2 className="text-2xl sm:text-4xl md:text-5xl font-extrabold tracking-[0.2em] uppercase text-white">
-                CORE SERVICES
-              </h2>
-            </div>
-            <Link
-              href="/services"
-              className="group text-xs tracking-[0.25em] uppercase text-neutral-400 hover:text-white flex items-center gap-2 transition-colors"
-            >
-              <span>VIEW ALL SERVICES</span>
-              <ArrowUpRight className="w-4 h-4 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
-            </Link>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6">
-            {homeServices.map((service, index) => {
-              const Icon = service.icon;
-              return (
-                <div
-                  key={service.num}
-                  onMouseEnter={() => setHoveredService(index)}
-                  onMouseLeave={() => setHoveredService(null)}
-                  className="group relative p-8 bg-[#0a0a0a] border border-white/[0.07] hover:border-white/30 transition-all duration-500 flex flex-col justify-between min-h-[320px] overflow-hidden"
-                >
-                  {/* Subtle hover gradient */}
-                  <div className="absolute inset-0 bg-gradient-to-br from-white/[0.03] to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none" />
-
-                  <div className="relative z-10">
-                    <div className="flex items-center justify-between mb-8">
-                      <span className="font-mono text-xs text-neutral-400 tracking-[0.3em]">
-                        {service.num}
-                      </span>
-                      <Icon className="w-5 h-5 text-neutral-500 group-hover:text-white transition-colors duration-300" />
-                    </div>
-
-                    <h3 className="text-lg font-bold tracking-[0.18em] uppercase text-white mb-3 group-hover:translate-x-1 transition-transform duration-300">
-                      {service.title}
-                    </h3>
-                    <p className="text-xs sm:text-sm text-neutral-400 leading-relaxed font-light">
-                      {service.desc}
-                    </p>
-                  </div>
-
-                  <div className="relative z-10 pt-6 border-t border-white/[0.05] flex items-center justify-between">
-                    <span className="text-[10px] font-mono tracking-[0.3em] text-neutral-400 uppercase">
-                      {service.tag}
-                    </span>
-                    <span className="text-neutral-400 group-hover:text-white transition-colors text-xs">
-                      &rarr;
-                    </span>
-                  </div>
-                </div>
-              );
-            })}
-          </div>
-
-          <div className="mt-12 text-center md:hidden">
-            <Link
-              href="/services"
-              className="inline-flex items-center gap-2 px-6 py-3 border border-white/20 text-xs tracking-[0.2em] uppercase text-white"
-            >
-              <span>VIEW ALL SERVICES</span>
-              <ArrowUpRight className="w-4 h-4" />
-            </Link>
-          </div>
-        </div>
-      </section>
-
-      {/* =========================================================================
-          ARTISTS PREVIEW (THE ROSTER)
-          ========================================================================= */}
-      <section className="relative py-28 sm:py-36 px-6 sm:px-12 border-t border-white/[0.06] bg-[#060606]">
-        <div className="max-w-7xl mx-auto">
-          <div className="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-6">
-            <div>
-              <span className="text-xs tracking-[0.4em] text-neutral-400 uppercase font-mono block mb-3">
-                // ACTIVE TALENT
-              </span>
-              <h2 className="text-2xl sm:text-4xl md:text-5xl font-extrabold tracking-[0.2em] uppercase text-white">
-                THE ROSTER
-              </h2>
-            </div>
-            <Link
-              href="/artists"
-              className="group text-xs tracking-[0.25em] uppercase text-neutral-400 hover:text-white flex items-center gap-2 transition-colors"
-            >
-              <span>VIEW ALL ARTISTS</span>
-              <ArrowUpRight className="w-4 h-4 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
-            </Link>
-          </div>
-
-          {/* Artist Cards Grid */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4 lg:gap-5">
-            {ARTISTS.map((artist) => (
-              <Link
-                key={artist.id}
-                href="/artists"
-                className="group relative block aspect-[3/4] overflow-hidden bg-neutral-900 border border-white/[0.08] hover:border-white/40 transition-all duration-500"
-              >
-                {/* Official Artist Image */}
-                <Image
-                  src={artist.image}
-                  alt={artist.name}
-                  fill
-                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 20vw"
-                  className="object-cover object-center grayscale contrast-125 transition-all duration-700 ease-out group-hover:scale-105 group-hover:grayscale-0 group-hover:contrast-100"
-                />
-
-                {/* Dramatic Gradient Overlay */}
-                <div className="absolute inset-0 bg-gradient-to-t from-black via-black/40 to-transparent opacity-80 group-hover:opacity-70 transition-opacity duration-500" />
-
-                {/* Index tag */}
-                <div className="absolute top-4 left-4 z-10 font-mono text-[11px] tracking-[0.25em] text-neutral-400 group-hover:text-white transition-colors">
-                  {artist.id}
-                </div>
-
-                {/* Bottom Content */}
-                <div className="absolute inset-x-0 bottom-0 p-5 z-10 flex flex-col justify-end transition-transform duration-500">
-                  <span className="text-[10px] tracking-[0.3em] font-mono text-neutral-400 uppercase mb-1">
-                    {artist.genre.split("/")[0]}
-                  </span>
-                  <h3 className="text-lg sm:text-xl font-bold tracking-[0.1em] uppercase text-white leading-tight">
-                    {artist.name}
-                  </h3>
-
-                  {/* Hover action indicator */}
-                  <div className="mt-3 flex items-center justify-between opacity-0 translate-y-2 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300 border-t border-white/20 pt-2">
-                    <span className="text-[10px] tracking-[0.25em] font-semibold uppercase text-white">
-                      VIEW ARTIST
-                    </span>
-                    <ArrowUpRight className="w-3.5 h-3.5 text-white" />
-                  </div>
-                </div>
-              </Link>
-            ))}
-          </div>
-
-          <div className="mt-16 text-center">
-            <Link
-              href="/artists"
-              className="inline-flex items-center gap-3 px-8 py-4 bg-white/[0.04] border border-white/20 text-xs tracking-[0.25em] uppercase text-white hover:bg-white hover:text-black transition-all duration-300"
-            >
-              <span>ENTER CHARACTER SELECTOR</span>
-              <ArrowUpRight className="w-4 h-4" />
-            </Link>
-          </div>
-        </div>
-      </section>
-
 
       {/* =========================================================================
           CONTACT CTA SECTION

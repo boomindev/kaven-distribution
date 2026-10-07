@@ -20,7 +20,7 @@ src/
 ├── app/
 │   ├── layout.tsx         # Master layout with NoiseOverlay, Navbar & Footer
 │   ├── template.tsx       # Route transition animation wrapper
-│   ├── page.tsx           # Home: Hero, Manifesto, Services, The Roster, CTA
+│   ├── page.tsx           # Home: Hero, Manifesto & Contact CTA
 │   ├── artists/page.tsx   # Interactive Character Selector & Spotify intelligence
 │   ├── services/page.tsx  # Editorial breakdown of 6 core music capabilities
 │   ├── partners/page.tsx  # Global DSP & Streaming partner ecosystem
