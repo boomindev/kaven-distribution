@@ -6,6 +6,8 @@ import Link from "next/link";
 import { Mail } from "lucide-react";
 
 export default function Footer() {
+  const email = "contact@kavendistribution.com";
+
   return (
     <footer className="border-t border-white/[0.08] bg-[#030303] py-12 px-6 sm:px-8 lg:px-12">
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6 text-center md:text-left">
@@ -25,14 +27,14 @@ export default function Footer() {
           </span>
         </div>
 
-        {/* Email [CORREO] */}
+        {/* Email */}
         <div className="flex items-center gap-2">
           <Mail className="w-3.5 h-3.5 text-neutral-400" />
           <a
-            href="mailto:[CORREO]"
+            href={`mailto:${email}`}
             className="text-xs font-mono text-neutral-300 hover:text-white transition-colors underline decoration-white/20 underline-offset-4"
           >
-            [CORREO]
+            {email}
           </a>
         </div>
 

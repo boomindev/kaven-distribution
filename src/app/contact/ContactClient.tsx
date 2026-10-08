@@ -19,8 +19,7 @@ export default function ContactClient() {
   const [copied, setCopied] = useState(false);
   const [errorMessage, setErrorMessage] = useState<string | null>(null);
 
-  // [CORREO] placeholder per user instructions
-  const visibleEmail = "[CORREO]";
+  const visibleEmail = "contact@kavendistribution.com";
   const formspreeEndpoint = "https://formspree.io/f/mjyggwna";
 
   const handleCopyEmail = () => {
@@ -94,7 +93,7 @@ export default function ContactClient() {
                 <Mail className="w-5 h-5 text-white shrink-0" />
                 <a
                   href={`mailto:${visibleEmail}`}
-                  className="text-lg font-mono font-medium text-white hover:text-neutral-300 transition-colors underline decoration-white/20 underline-offset-4"
+                  className="text-base sm:text-lg font-mono font-medium text-white hover:text-neutral-300 transition-colors underline decoration-white/20 underline-offset-4 break-all"
                 >
                   {visibleEmail}
                 </a>
