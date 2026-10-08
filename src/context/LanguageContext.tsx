@@ -77,9 +77,9 @@ const translations: Record<Language, Translations> = {
       rights: "© 2026 KAVEN Distribution. All rights reserved.",
     },
     home: {
-      title: "Empowering independent artists to reach wider audiences.",
+      title: "Connecting independent artists with wider audiences.",
       subtitle:
-        "Direct digital distribution, streamlined catalog management, and dedicated release strategy for independent creators.",
+        "Digital distribution and release strategy for independent creators.",
       applyNow: "APPLY NOW",
       viewRoster: "VIEW ROSTER",
     },
@@ -139,9 +139,9 @@ const translations: Record<Language, Translations> = {
       rights: "© 2026 KAVEN Distribution. All rights reserved.",
     },
     home: {
-      title: "Llevamos a los artistas independientes a una mayor audiencia.",
+      title: "Llevamos artistas independientes a más audiencia.",
       subtitle:
-        "Distribución digital directa, gestión simplificada de catálogo y soporte estratégico para creadores independientes.",
+        "Distribución digital y estrategia de lanzamientos para creadores independientes.",
       applyNow: "APLICAR AHORA",
       viewRoster: "VER ROSTER",
     },
