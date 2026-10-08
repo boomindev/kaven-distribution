@@ -9,7 +9,7 @@ export default function Footer() {
           <div className="relative h-6 w-28 opacity-90">
             <Image
               src="/kaven-logo-white.png"
-              alt="KAVEN"
+              alt="KAVEN Distribution - Music Distribution & Artist Services"
               fill
               className="object-contain object-center md:object-left"
             />
