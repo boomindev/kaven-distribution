@@ -3,6 +3,7 @@ import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import NoiseOverlay from "@/components/NoiseOverlay";
+import { LanguageProvider } from "@/context/LanguageContext";
 
 export const viewport: Viewport = {
   themeColor: "#050505",
@@ -18,29 +19,26 @@ export const metadata: Metadata = {
     template: "%s | KAVEN Distribution",
   },
   description:
-    "Official website of KAVEN Distribution. Music distribution, catalog management, release strategy, and elite artist services across 150+ global DSPs.",
+    "Official website of KAVEN Distribution. Boutique digital music distribution, profile management, and release strategy for independent artists.",
   keywords: [
     "KAVEN",
     "KAVEN Distribution",
     "Music Distribution",
     "Artist Services",
-    "Record Label",
-    "Catalog Management",
     "Digital Music Distribution",
     "DSP Delivery",
     "Spotify Distribution",
     "Apple Music Distribution",
-    "Music Publishing",
-    "Latin Urban Distribution",
-    "Latin Trap",
     "Independent Artists",
+    "Distribución Musical",
+    "Artistas Independientes",
   ],
   authors: [{ name: "KAVEN Distribution" }],
   creator: "KAVEN Distribution",
   publisher: "KAVEN Distribution",
   category: "Music",
   alternates: {
-    canonical: "/",
+    canonical: "https://kavendistribution.com",
   },
   openGraph: {
     type: "website",
@@ -49,13 +47,13 @@ export const metadata: Metadata = {
     siteName: "KAVEN Distribution",
     title: "KAVEN Distribution | Music Distribution & Artist Services",
     description:
-      "Official website of KAVEN Distribution. Music distribution, catalog management, release strategy, and elite artist services across 150+ global DSPs.",
+      "Boutique digital music distribution, profile management, and release strategy for independent artists.",
     images: [
       {
         url: "/kaven-logo.png",
         width: 1200,
         height: 630,
-        alt: "KAVEN Distribution - Music Distribution & Artist Services",
+        alt: "KAVEN Distribution Logo",
       },
     ],
   },
@@ -63,7 +61,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "KAVEN Distribution | Music Distribution & Artist Services",
     description:
-      "Official website of KAVEN Distribution. Music distribution, catalog management, release strategy, and elite artist services across 150+ global DSPs.",
+      "Boutique digital music distribution, profile management, and release strategy for independent artists.",
     images: ["/kaven-logo.png"],
   },
   robots: {
@@ -96,15 +94,13 @@ const organizationJsonLd = {
     caption: "KAVEN Distribution Logo",
   },
   image: "https://kavendistribution.com/kaven-logo.png",
-  email: "contact@kavendistribution.com",
   description:
-    "Official website of KAVEN Distribution. Music distribution, catalog management, release strategy, and elite artist services.",
+    "Boutique digital music distribution, profile management, and release strategy for independent artists.",
   knowsAbout: [
-    "Music Distribution",
-    "Digital Service Providers (DSPs)",
-    "Catalog Management",
+    "Digital Music Distribution",
+    "Streaming Platforms",
+    "Profile Management",
     "Release Strategy",
-    "Music Publishing",
   ],
 };
 
@@ -115,11 +111,10 @@ const websiteJsonLd = {
   url: "https://kavendistribution.com",
   name: "KAVEN Distribution",
   description:
-    "Official website of KAVEN Distribution. Music distribution, catalog management, release strategy, and elite artist services.",
+    "Boutique digital music distribution, profile management, and release strategy for independent artists.",
   publisher: {
     "@id": "https://kavendistribution.com/#organization",
   },
-  inLanguage: "en-US",
 };
 
 export default function RootLayout({
@@ -128,7 +123,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="dark">
+    <html lang="es" className="dark">
       <head>
         <script
           type="application/ld+json"
@@ -140,12 +135,14 @@ export default function RootLayout({
         />
       </head>
       <body className="bg-[#050505] text-white antialiased selection:bg-white selection:text-black">
-        <NoiseOverlay />
-        <div className="relative min-h-screen flex flex-col justify-between">
-          <Navbar />
-          <main className="flex-grow">{children}</main>
-          <Footer />
-        </div>
+        <LanguageProvider>
+          <NoiseOverlay />
+          <div className="relative min-h-screen flex flex-col justify-between">
+            <Navbar />
+            <main className="flex-grow">{children}</main>
+            <Footer />
+          </div>
+        </LanguageProvider>
       </body>
     </html>
   );

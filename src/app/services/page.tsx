@@ -3,16 +3,16 @@ import ServicesClient from "./ServicesClient";
 import { SERVICES } from "@/data/services";
 
 export const metadata: Metadata = {
-  title: "Music Distribution & Artist Services",
+  title: "Our Services | Music Distribution & Artist Services",
   description:
-    "Comprehensive music services: Digital Distribution to 150+ DSPs, Release Management, Artist Development, and Catalog Administration for labels and artists.",
+    "Digital Distribution to major streaming platforms (Spotify, Apple Music, YouTube Music, Amazon Music), Profile Management, and Support & Strategy for independent artists.",
   alternates: {
     canonical: "https://kavendistribution.com/services",
   },
   openGraph: {
-    title: "Music Services & Digital Distribution | KAVEN Distribution",
+    title: "Our Services | KAVEN Distribution",
     description:
-      "Comprehensive music suite: Digital Distribution to 150+ DSPs, Strategic Release Management, Artist Development, and Catalog Optimization.",
+      "Digital Distribution, Profile Management, and Support & Strategy for independent artists.",
     url: "https://kavendistribution.com/services",
     type: "website",
   },
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
 const servicesBreadcrumbsJsonLd = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
-  "itemListElement": [
+  itemListElement: [
     {
       "@type": "ListItem",
       "position": 1,
@@ -40,21 +40,20 @@ const servicesBreadcrumbsJsonLd = {
 const servicesListJsonLd = {
   "@context": "https://schema.org",
   "@type": "ItemList",
-  "name": "KAVEN Distribution Services",
-  "description": "Suite of professional music distribution and artist services.",
-  "itemListElement": SERVICES.map((service, idx) => ({
+  name: "KAVEN Distribution Services",
+  description: "Independent music distribution and artist services.",
+  itemListElement: SERVICES.map((service, idx) => ({
     "@type": "ListItem",
-    "position": idx + 1,
-    "item": {
+    position: idx + 1,
+    item: {
       "@type": "Service",
-      "name": service.title,
-      "description": service.description,
-      "provider": {
+      name: service.titleEn,
+      description: service.descriptionEn,
+      provider: {
         "@type": "Organization",
-        "name": "KAVEN Distribution",
-        "url": "https://kavendistribution.com",
+        name: "KAVEN Distribution",
+        url: "https://kavendistribution.com",
       },
-      "serviceType": "Music Distribution & Label Services",
     },
   })),
 };

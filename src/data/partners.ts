@@ -1,107 +1,81 @@
 export interface PartnerItem {
   id: string;
   name: string;
-  category: "DSP" | "Video & Social" | "High-Fidelity & Specialist";
-  territory: string;
-  reach: string;
-  description: string;
+  categoryEn: string;
+  categoryEs: string;
+  descriptionEn: string;
+  descriptionEs: string;
 }
 
 export const PARTNERS: PartnerItem[] = [
   {
+    id: "fuga",
+    name: "FUGA",
+    categoryEn: "B2B Infrastructure & Delivery",
+    categoryEs: "Infraestructura B2B y Distribución",
+    descriptionEn:
+      "Industry-standard B2B digital delivery infrastructure and global supply chain technology.",
+    descriptionEs:
+      "Infraestructura B2B y tecnología de distribución digital estándar de la industria.",
+  },
+  {
     id: "spotify",
     name: "Spotify",
-    category: "DSP",
-    territory: "Global (180+ Markets)",
-    reach: "600M+ Monthly Active Users",
-    description: "The global leader in audio streaming with industry-standard editorial playlists and direct discovery algorithms."
+    categoryEn: "Streaming Platform",
+    categoryEs: "Plataforma de Streaming",
+    descriptionEn:
+      "Global streaming platform with editorial playlists and algorithmic discovery.",
+    descriptionEs:
+      "Plataforma global de streaming con playlists editoriales y descubrimiento algorítmico.",
   },
   {
     id: "apple-music",
     name: "Apple Music",
-    category: "DSP",
-    territory: "Global (167 Markets)",
-    reach: "100M+ Songs in Spatial Audio",
-    description: "High-fidelity lossless streaming integrated seamlessly across Apple's hardware and cultural ecosystem."
-  },
-  {
-    id: "amazon-music",
-    name: "Amazon Music",
-    category: "DSP",
-    territory: "Global (50+ Markets)",
-    reach: "Prime & Unlimited Network",
-    description: "Massive reach driven by smart speaker integration, voice command curation, and global retail synergy."
-  },
-  {
-    id: "deezer",
-    name: "Deezer",
-    category: "DSP",
-    territory: "Global (185+ Markets)",
-    reach: "Europe & Latin America Focus",
-    description: "Artist-centric royalty model champion with strong roots across Europe, France, and Latin America."
-  },
-  {
-    id: "tiktok-music",
-    name: "TikTok Music",
-    category: "Video & Social",
-    territory: "Global & ByteDance Ecosystem",
-    reach: "1B+ Viral Audiences",
-    description: "The epicenter of viral discovery, sound licensing, and video-first music trends defining modern chart hits."
-  },
-  {
-    id: "tidal",
-    name: "Tidal",
-    category: "High-Fidelity & Specialist",
-    territory: "Global (60+ Markets)",
-    reach: "Audiophile & Hi-Res FLAC",
-    description: "Artist-first philosophy with master quality sound, fan payouts, and dedicated curatorial spotlights."
+    categoryEn: "Streaming Platform",
+    categoryEs: "Plataforma de Streaming",
+    descriptionEn:
+      "High-fidelity lossless streaming and global curatorial reach across Apple ecosystem.",
+    descriptionEs:
+      "Streaming en alta fidelidad y alcance curatorial global en el ecosistema Apple.",
   },
   {
     id: "youtube-music",
     name: "YouTube Music",
-    category: "Video & Social",
-    territory: "Global (100+ Markets)",
-    reach: "2B+ Video & Audio Streamers",
-    description: "Unmatched combination of visual music videos, official tracks, live performances, and Shorts monetization."
+    categoryEn: "Streaming Platform",
+    categoryEs: "Plataforma de Streaming",
+    descriptionEn:
+      "Global music streaming, official audio tracks, and artist channel integration.",
+    descriptionEs:
+      "Streaming global de música, audio oficial e integración con canales de artista.",
   },
   {
-    id: "meta",
-    name: "Instagram & Facebook Music",
-    category: "Video & Social",
-    territory: "Global",
-    reach: "3B+ Active Social Creators",
-    description: "Direct library integration for Instagram Reels, Stories, and Facebook Video content worldwide."
+    id: "amazon-music",
+    name: "Amazon Music",
+    categoryEn: "Streaming Platform",
+    categoryEs: "Plataforma de Streaming",
+    descriptionEn:
+      "Worldwide streaming service accessible across mobile, web, and smart audio devices.",
+    descriptionEs:
+      "Servicio de streaming global disponible en dispositivos móviles, web y audio inteligente.",
   },
   {
-    id: "soundcloud",
-    name: "SoundCloud",
-    category: "High-Fidelity & Specialist",
-    territory: "Global",
-    reach: "Underground & Creator Community",
-    description: "The premier launchpad for underground movements, remix culture, and direct fan-to-artist engagement."
+    id: "deezer",
+    name: "Deezer",
+    categoryEn: "Streaming Platform",
+    categoryEs: "Plataforma de Streaming",
+    descriptionEn:
+      "Global music streaming platform with dedicated presence in Europe and Latin America.",
+    descriptionEs:
+      "Plataforma global de música con fuerte presencia en Europa y Latinoamérica.",
   },
   {
-    id: "pandora",
-    name: "Pandora",
-    category: "DSP",
-    territory: "North America",
-    reach: "SiriusXM Media Network",
-    description: "Pioneer in Music Genome Project radio algorithms and personalized streaming across the United States."
+    id: "tidal",
+    name: "Tidal",
+    categoryEn: "Streaming Platform",
+    categoryEs: "Plataforma de Streaming",
+    descriptionEn:
+      "High-resolution audio streaming with artist-focused editorial presentation.",
+    descriptionEs:
+      "Streaming de audio en alta resolución con enfoque editorial centrado en el artista.",
   },
-  {
-    id: "beatport",
-    name: "Beatport",
-    category: "High-Fidelity & Specialist",
-    territory: "Global DJ Ecosystem",
-    reach: "World's Top DJs & Clubs",
-    description: "The undisputed electronic and club music standard for DJs, producers, and electronic tastemakers."
-  },
-  {
-    id: "audiomack",
-    name: "Audiomack",
-    category: "High-Fidelity & Specialist",
-    territory: "US, Africa & Latin America",
-    reach: "30M+ Monthly Listeners",
-    description: "Fast-growing streaming and discovery platform focused on hip-hop, Afrobeats, and emerging urban scenes."
-  }
 ];

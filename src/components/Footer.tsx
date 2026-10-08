@@ -1,27 +1,45 @@
+"use client";
+
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
+import { Mail } from "lucide-react";
 
 export default function Footer() {
   return (
-    <footer className="border-t border-white/[0.06] bg-black py-16 px-6 sm:px-12">
-      <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-8 text-center md:text-left">
-        <div className="flex flex-col items-center md:items-start gap-2">
-          <div className="relative h-6 w-28 opacity-90">
+    <footer className="border-t border-white/[0.08] bg-[#030303] py-12 px-6 sm:px-8 lg:px-12">
+      <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6 text-center md:text-left">
+        {/* Brand & Name */}
+        <div className="flex flex-col sm:flex-row items-center gap-4">
+          <Link href="/" className="inline-block relative h-6 w-28 opacity-90 hover:opacity-100 transition-opacity">
             <Image
               src="/kaven-logo-white.png"
-              alt="KAVEN Distribution - Music Distribution & Artist Services"
+              alt="KAVEN Distribution"
               fill
               className="object-contain object-center md:object-left"
             />
-          </div>
-          <span className="text-[11px] tracking-[0.3em] uppercase text-neutral-400 font-light">
-            Music Distribution
+          </Link>
+          <span className="hidden sm:inline-block text-neutral-600">|</span>
+          <span className="text-xs text-neutral-400 font-light tracking-wider">
+            KAVEN Distribution
           </span>
         </div>
 
+        {/* Email [CORREO] */}
+        <div className="flex items-center gap-2">
+          <Mail className="w-3.5 h-3.5 text-neutral-400" />
+          <a
+            href="mailto:[CORREO]"
+            className="text-xs font-mono text-neutral-300 hover:text-white transition-colors underline decoration-white/20 underline-offset-4"
+          >
+            [CORREO]
+          </a>
+        </div>
+
+        {/* Copyright */}
         <div>
-          <p className="text-xs tracking-[0.2em] text-neutral-500 font-light">
-            &copy; 2026 KAVEN Distribution
+          <p className="text-xs text-neutral-500 font-light tracking-wide">
+            &copy; 2026 KAVEN Distribution. All rights reserved.
           </p>
         </div>
       </div>

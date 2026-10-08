@@ -2,16 +2,16 @@ import type { Metadata } from "next";
 import ContactClient from "./ContactClient";
 
 export const metadata: Metadata = {
-  title: "Contact & Music Submissions",
+  title: "Contact | Submissions & Inquiries",
   description:
-    "Submit your music, catalog, or artist roster to KAVEN Distribution. Direct inquiries at contact@kavendistribution.com with 24-48h response time.",
+    "Get in touch with KAVEN Distribution. Submit your music, upcoming releases, or distribution inquiries.",
   alternates: {
     canonical: "https://kavendistribution.com/contact",
   },
   openGraph: {
-    title: "Contact & Artist Submissions | KAVEN Distribution",
+    title: "Contact | KAVEN Distribution",
     description:
-      "Submit your music, catalog, or record label roster to KAVEN Distribution. Direct inquiry channels and responsive artist team.",
+      "Get in touch with KAVEN Distribution for music submissions and distribution inquiries.",
     url: "https://kavendistribution.com/contact",
     type: "website",
   },
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 const contactBreadcrumbsJsonLd = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
-  "itemListElement": [
+  itemListElement: [
     {
       "@type": "ListItem",
       "position": 1,
@@ -40,16 +40,9 @@ const contactPageJsonLd = {
   "@context": "https://schema.org",
   "@type": "ContactPage",
   "@id": "https://kavendistribution.com/contact#contactpage",
-  "url": "https://kavendistribution.com/contact",
-  "name": "Contact KAVEN Distribution",
-  "description":
-    "Official inquiries and music catalog submissions for KAVEN Distribution.",
-  "mainEntity": {
-    "@type": "Organization",
-    "name": "KAVEN Distribution",
-    "email": "contact@kavendistribution.com",
-    "url": "https://kavendistribution.com",
-  },
+  url: "https://kavendistribution.com/contact",
+  name: "Contact KAVEN Distribution",
+  description: "Official inquiries and music distribution submissions for KAVEN Distribution.",
 };
 
 export default function ContactPage() {

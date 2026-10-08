@@ -3,16 +3,16 @@ import PartnersClient from "./PartnersClient";
 import { PARTNERS } from "@/data/partners";
 
 export const metadata: Metadata = {
-  title: "Global DSP & Streaming Partners",
+  title: "Partners | Distribution Infrastructure & Platforms",
   description:
-    "Explore KAVEN Distribution's global network: Spotify, Apple Music, Amazon Music, TikTok, YouTube Music, Deezer, Tidal, and direct DDEX ingestion across 180+ markets.",
+    "Explore KAVEN Distribution's delivery network and infrastructure partners: FUGA, Spotify, Apple Music, YouTube Music, Amazon Music, Deezer, and Tidal.",
   alternates: {
     canonical: "https://kavendistribution.com/partners",
   },
   openGraph: {
-    title: "Global DSP & Streaming Partners | KAVEN Distribution",
+    title: "Partners | KAVEN Distribution",
     description:
-      "Direct delivery to Spotify, Apple Music, TikTok, Amazon Music, YouTube, Deezer, and 150+ storefronts across 180+ global markets.",
+      "FUGA B2B Infrastructure & Delivery, Spotify, Apple Music, YouTube Music, Amazon Music, and global platforms.",
     url: "https://kavendistribution.com/partners",
     type: "website",
   },
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
 const partnersBreadcrumbsJsonLd = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
-  "itemListElement": [
+  itemListElement: [
     {
       "@type": "ListItem",
       "position": 1,
@@ -41,19 +41,19 @@ const partnersCollectionJsonLd = {
   "@context": "https://schema.org",
   "@type": "CollectionPage",
   "@id": "https://kavendistribution.com/partners#collection",
-  "url": "https://kavendistribution.com/partners",
-  "name": "KAVEN Distribution Partner Network",
-  "description": "Global DSP, video, and social streaming platforms integrated with KAVEN Distribution.",
-  "mainEntity": {
+  url: "https://kavendistribution.com/partners",
+  name: "KAVEN Distribution Partners",
+  description: "Global delivery and streaming partners connected to KAVEN Distribution.",
+  mainEntity: {
     "@type": "ItemList",
-    "numberOfItems": PARTNERS.length,
-    "itemListElement": PARTNERS.map((partner, idx) => ({
+    numberOfItems: PARTNERS.length,
+    itemListElement: PARTNERS.map((partner, idx) => ({
       "@type": "ListItem",
-      "position": idx + 1,
-      "item": {
+      position: idx + 1,
+      item: {
         "@type": "Organization",
-        "name": partner.name,
-        "description": partner.description,
+        name: partner.name,
+        description: partner.descriptionEn,
       },
     })),
   },

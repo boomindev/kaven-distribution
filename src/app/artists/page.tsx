@@ -3,16 +3,16 @@ import ArtistsClient from "./ArtistsClient";
 import { ARTISTS } from "@/data/artists";
 
 export const metadata: Metadata = {
-  title: "Artists Roster | Latin Urban, Trap & Pop Talent",
+  title: "Our Roster | Independent Artists",
   description:
-    "Explore the official artist roster at KAVEN Distribution: ENEZ 4R, Ambik, CHANCRA, Zabu Mami, and ARA. Verified Spotify metrics, top tracks, and distribution releases.",
+    "Explore the official artist roster at KAVEN Distribution: ENEZ 4R, Ambik, CHANCRA, Zabu Mami, and ARA.",
   alternates: {
     canonical: "https://kavendistribution.com/artists",
   },
   openGraph: {
-    title: "Artists Roster | KAVEN Distribution",
+    title: "Our Roster | KAVEN Distribution",
     description:
-      "Explore the official artist roster at KAVEN Distribution: ENEZ 4R, Ambik, CHANCRA, Zabu Mami, and ARA. Verified streaming metrics and direct DSP distribution.",
+      "Explore the official artist roster at KAVEN Distribution: ENEZ 4R, Ambik, CHANCRA, Zabu Mami, and ARA.",
     url: "https://kavendistribution.com/artists",
     type: "website",
   },
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
 const artistsBreadcrumbsJsonLd = {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
-  "itemListElement": [
+  itemListElement: [
     {
       "@type": "ListItem",
       "position": 1,
@@ -41,20 +41,18 @@ const artistsCollectionJsonLd = {
   "@context": "https://schema.org",
   "@type": "CollectionPage",
   "@id": "https://kavendistribution.com/artists#collection",
-  "url": "https://kavendistribution.com/artists",
-  "name": "KAVEN Distribution Artists Roster",
-  "description": "Featured talent roster distributed globally by KAVEN Distribution.",
-  "mainEntity": {
+  url: "https://kavendistribution.com/artists",
+  name: "KAVEN Distribution Artists Roster",
+  description: "Official artist roster distributed by KAVEN Distribution.",
+  mainEntity: {
     "@type": "ItemList",
-    "numberOfItems": ARTISTS.length,
-    "itemListElement": ARTISTS.map((artist, idx) => ({
+    numberOfItems: ARTISTS.length,
+    itemListElement: ARTISTS.map((artist, idx) => ({
       "@type": "ListItem",
       "position": idx + 1,
       "item": {
         "@type": "MusicGroup",
         "name": artist.name,
-        "genre": artist.genre,
-        "description": artist.bio,
         "sameAs": [artist.spotifyUrl],
       },
     })),
